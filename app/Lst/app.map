@@ -1,0 +1,1880 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           CSKY
+  Version:                           0x1
+  Entry point address:               0x110c
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          604432 (bytes into file)
+  Flags:                             0x21000000
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         2
+  Size of section headers:           40 (bytes)
+  Number of section headers:         137
+  Section header string table index: 134
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .text             PROGBITS        00001000 000400 0002bc 00  AX  0   0 1024
+  [ 2] .text.__main      PROGBITS        000012bc 0006bc 000038 00  AX  0   0  4
+  [ 3] .text.__divsi3    PROGBITS        000012f4 0006f4 000024 00  AX  0   0  4
+  [ 4] .text.__udivsi3   PROGBITS        00001318 000718 000024 00  AX  0   0  4
+  [ 5] .text.__modsi3    PROGBITS        0000133c 00073c 000024 00  AX  0   0  4
+  [ 6] .text.__umodsi3   PROGBITS        00001360 000760 000024 00  AX  0   0  4
+  [ 7] .text.ReadDataArr PROGBITS        00001384 000784 00002e 00  AX  0   0  2
+  [ 8] .text.ProgramData PROGBITS        000013b4 0007b4 000104 00  AX  0   0  4
+  [ 9] .text.BT_DeInit   PROGBITS        000014b8 0008b8 00001c 00  AX  0   0  2
+  [10] .text.BT_IO_Init  PROGBITS        000014d4 0008d4 000140 00  AX  0   0  4
+  [11] .text.BT_Start    PROGBITS        00001614 000a14 000008 00  AX  0   0  2
+  [12] .text.BT_Configur PROGBITS        0000161c 000a1c 000018 00  AX  0   0  2
+  [13] .text.BT_ControlS PROGBITS        00001634 000a34 00002c 00  AX  0   0  2
+  [14] .text.BT_Period_C PROGBITS        00001660 000a60 000006 00  AX  0   0  2
+  [15] .text.BT_ConfigIn PROGBITS        00001666 000a66 000012 00  AX  0   0  2
+  [16] .text.BT0_INT_ENA PROGBITS        00001678 000a78 000010 00  AX  0   0  4
+  [17] .text.GPIO_Init   PROGBITS        00001688 000a88 000068 00  AX  0   0  4
+  [18] .text.GPIO_PullHi PROGBITS        000016f0 000af0 000014 00  AX  0   0  2
+  [19] .text.GPIO_Write_ PROGBITS        00001704 000b04 000008 00  AX  0   0  2
+  [20] .text.GPIO_Write_ PROGBITS        0000170c 000b0c 000008 00  AX  0   0  2
+  [21] .text.GPIO_Revers PROGBITS        00001714 000b14 000016 00  AX  0   0  2
+  [22] .text.GPIO_Read_S PROGBITS        0000172a 000b2a 000010 00  AX  0   0  2
+  [23] .text.GPIO_Read_O PROGBITS        0000173a 000b3a 000010 00  AX  0   0  2
+  [24] .text.I2C_ConfigI PROGBITS        0000174c 000b4c 000020 00  AX  0   0  4
+  [25] .text.I2C_Enable  PROGBITS        0000176c 000b6c 00001c 00  AX  0   0  4
+  [26] .text.I2C_Disable PROGBITS        00001788 000b88 00001c 00  AX  0   0  4
+  [27] .text.I2C_Slave_R PROGBITS        000017a4 000ba4 000130 00  AX  0   0  4
+  [28] .text.UART1_DeIni PROGBITS        000018d4 000cd4 000018 00  AX  0   0  4
+  [29] .text.UART2_DeIni PROGBITS        000018ec 000cec 000018 00  AX  0   0  4
+  [30] .text.UART1_Int_E PROGBITS        00001904 000d04 00001c 00  AX  0   0  4
+  [31] .text.UART2_Int_E PROGBITS        00001920 000d20 00001c 00  AX  0   0  4
+  [32] .text.UART_IO_Ini PROGBITS        0000193c 000d3c 0000e8 00  AX  0   0  4
+  [33] .text.UARTInitRxT PROGBITS        00001a24 000e24 000010 00  AX  0   0  2
+  [34] .text.UARTTxByte  PROGBITS        00001a34 000e34 00000e 00  AX  0   0  2
+  [35] .text.WWDT_CNT_Lo PROGBITS        00001a44 000e44 000010 00  AX  0   0  4
+  [36] .text.IoInit      PROGBITS        00001a54 000e54 000084 00  AX  0   0  4
+  [37] .text.rst_mcu     PROGBITS        00001ad8 000ed8 00001c 00  AX  0   0  4
+  [38] .text.feed_IWDT   PROGBITS        00001af4 000ef4 000014 00  AX  0   0  4
+  [39] .text.Wait        PROGBITS        00001b08 000f08 00001c 00  AX  0   0  4
+  [40] .text.Ram_Init    PROGBITS        00001b24 000f24 00004c 00  AX  0   0  4
+  [41] .text.startup.mai PROGBITS        00001b70 000f70 0001b4 00  AX  0   0  4
+  [42] .text.BT_CONFIG   PROGBITS        00001d24 001124 000060 00  AX  0   0  4
+  [43] .text.UART1_CONFI PROGBITS        00001d84 001184 000024 00  AX  0   0  4
+  [44] .text.UART2_CONFI PROGBITS        00001da8 0011a8 000024 00  AX  0   0  4
+  [45] .text.IFC_CONFIG  PROGBITS        00001dcc 0011cc 000014 00  AX  0   0  4
+  [46] .text.CORETHandle PROGBITS        00001de0 0011e0 000018 00  AX  0   0  4
+  [47] .text.SYSCONIntHa PROGBITS        00001df8 0011f8 0000e4 00  AX  0   0  4
+  [48] .text.IFCIntHandl PROGBITS        00001edc 0012dc 0000ec 00  AX  0   0  4
+  [49] .text.EPT0IntHand PROGBITS        00001fc8 0013c8 000118 00  AX  0   0  4
+  [50] .text.WWDTHandler PROGBITS        000020e0 0014e0 00004c 00  AX  0   0  4
+  [51] .text.GPT0IntHand PROGBITS        0000212c 00152c 0000b4 00  AX  0   0  4
+  [52] .text.RTCIntHandl PROGBITS        000021e0 0015e0 000070 00  AX  0   0  4
+  [53] .text.UART0IntHan PROGBITS        00002250 001650 00003c 00  AX  0   0  4
+  [54] .text.UART1IntHan PROGBITS        0000228c 00168c 000028 00  AX  0   0  4
+  [55] .text.UART2IntHan PROGBITS        000022b4 0016b4 000090 00  AX  0   0  4
+  [56] .text.I2CIntHandl PROGBITS        00002344 001744 000014 00  AX  0   0  2
+  [57] .text.SPI0IntHand PROGBITS        00002358 001758 00003c 00  AX  0   0  4
+  [58] .text.SIO0IntHand PROGBITS        00002394 001794 000084 00  AX  0   0  4
+  [59] .text.EXI0IntHand PROGBITS        00002418 001818 000020 00  AX  0   0  4
+  [60] .text.EXI1IntHand PROGBITS        00002438 001838 000020 00  AX  0   0  4
+  [61] .text.EXI2to3IntH PROGBITS        00002458 001858 00002c 00  AX  0   0  4
+  [62] .text.EXI4to8IntH PROGBITS        00002484 001884 000050 00  AX  0   0  4
+  [63] .text.EXI9to13Int PROGBITS        000024d4 0018d4 000054 00  AX  0   0  4
+  [64] .text.LPTIntHandl PROGBITS        00002528 001928 000040 00  AX  0   0  4
+  [65] .text.BT0IntHandl PROGBITS        00002568 001968 000180 00  AX  0   0  4
+  [66] .text.BT1IntHandl PROGBITS        000026e8 001ae8 000048 00  AX  0   0  4
+  [67] .text.PriviledgeV PROGBITS        00002730 001b30 000002 00  AX  0   0  2
+  [68] .text.PendTrapHan PROGBITS        00002732 001b32 000008 00  AX  0   0  2
+  [69] .text.Trap3Handle PROGBITS        0000273a 001b3a 000008 00  AX  0   0  2
+  [70] .text.Trap2Handle PROGBITS        00002742 001b42 000008 00  AX  0   0  2
+  [71] .text.Trap1Handle PROGBITS        0000274a 001b4a 000008 00  AX  0   0  2
+  [72] .text.Trap0Handle PROGBITS        00002752 001b52 000008 00  AX  0   0  2
+  [73] .text.UnrecExecpH PROGBITS        0000275a 001b5a 000008 00  AX  0   0  2
+  [74] .text.BreakPointH PROGBITS        00002762 001b62 000008 00  AX  0   0  2
+  [75] .text.AccessErrHa PROGBITS        0000276a 001b6a 000008 00  AX  0   0  2
+  [76] .text.IllegalInst PROGBITS        00002772 001b72 000008 00  AX  0   0  2
+  [77] .text.MisalignedH PROGBITS        0000277a 001b7a 000008 00  AX  0   0  2
+  [78] .text.TKEYIntHand PROGBITS        00002782 001b82 000008 00  AX  0   0  2
+  [79] .text.CNTAIntHand PROGBITS        0000278a 001b8a 000008 00  AX  0   0  2
+  [80] .text.ADCIntHandl PROGBITS        00002792 001b92 000008 00  AX  0   0  2
+  [81] .text.__putchar__ PROGBITS        0000279c 001b9c 000038 00  AX  0   0  4
+  [82] .text.myitoa      PROGBITS        000027d4 001bd4 00008c 00  AX  0   0  2
+  [83] .text.my_printf   PROGBITS        00002860 001c60 0000c0 00  AX  0   0  2
+  [84] .text.FlagGetBit  PROGBITS        00002920 001d20 000020 00  AX  0   0  4
+  [85] .text.FlagSetBit  PROGBITS        00002940 001d40 00002c 00  AX  0   0  4
+  [86] .text.FlagClearBi PROGBITS        0000296c 001d6c 000024 00  AX  0   0  4
+  [87] .text.FlagReverse PROGBITS        00002990 001d90 00002c 00  AX  0   0  4
+  [88] .text.HtBitsWr    PROGBITS        000029bc 001dbc 000088 00  AX  0   0  4
+  [89] .text.ht_wr_4bit  PROGBITS        00002a44 001e44 00001a 00  AX  0   0  2
+  [90] .text.LcdInit     PROGBITS        00002a60 001e60 000034 00  AX  0   0  4
+  [91] .text.SetBeep     PROGBITS        00002a94 001e94 000018 00  AX  0   0  4
+  [92] .text.Bled_On     PROGBITS        00002aac 001eac 00001c 00  AX  0   0  4
+  [93] .text.Key_Power_S PROGBITS        00002ac8 001ec8 00004c 00  AX  0   0  4
+  [94] .text.Key_Add     PROGBITS        00002b14 001f14 000074 00  AX  0   0  4
+  [95] .text.Key_Dec     PROGBITS        00002b88 001f88 00006c 00  AX  0   0  4
+  [96] .text.Key_WifiRst PROGBITS        00002bf4 001ff4 00004c 00  AX  0   0  4
+  [97] .text.ScanKey     PROGBITS        00002c40 002040 00010c 00  AX  0   0  4
+  [98] .text.GetTmpDisp  PROGBITS        00002d4c 00214c 000040 00  AX  0   0  4
+  [99] .text.SetClkDisp  PROGBITS        00002d8c 00218c 000088 00  AX  0   0  4
+  [100] .text.GetTmrDisp  PROGBITS        00002e14 002214 00007c 00  AX  0   0  4
+  [101] .text.GetWiFiDisp PROGBITS        00002e90 002290 000058 00  AX  0   0  4
+  [102] .text.GetLockDisp PROGBITS        00002ee8 0022e8 00001c 00  AX  0   0  4
+  [103] .text.SetDisplay  PROGBITS        00002f04 002304 000178 00  AX  0   0  4
+  [104] .text.Lcd_Disp    PROGBITS        0000307c 00247c 0000a4 00  AX  0   0  4
+  [105] .text.Uart_Send_S PROGBITS        00003120 002520 000020 00  AX  0   0  4
+  [106] .text.Tx_Data_Sum PROGBITS        00003140 002540 000034 00  AX  0   0  4
+  [107] .text.Send_Data_P PROGBITS        00003174 002574 000058 00  AX  0   0  4
+  [108] .text.Send_Data_H PROGBITS        000031cc 0025cc 000040 00  AX  0   0  4
+  [109] .text.Send_Data_H PROGBITS        0000320c 00260c 000074 00  AX  0   0  4
+  [110] .text.Send_Data_S PROGBITS        00003280 002680 00003c 00  AX  0   0  4
+  [111] .text.Send_Data_S PROGBITS        000032bc 0026bc 00004c 00  AX  0   0  4
+  [112] .text.Send_Data_R PROGBITS        00003308 002708 00003c 00  AX  0   0  4
+  [113] .text.Send_Data_S PROGBITS        00003344 002744 000040 00  AX  0   0  4
+  [114] .text.Get_Sum     PROGBITS        00003384 002784 000028 00  AX  0   0  4
+  [115] .text.rw_compare  PROGBITS        000033ac 0027ac 00001c 00  AX  0   0  2
+  [116] .text.Uart_Rx     PROGBITS        000033c8 0027c8 000384 00  AX  0   0  4
+  [117] .text.Uart_Tx_Rx  PROGBITS        0000374c 002b4c 0000fc 00  AX  0   0  4
+  [118] .RomCode          PROGBITS        00003848 003148 000000 00   W  0   0  1
+  [119] .rodata           PROGBITS        00003848 002c48 00017c 00   A  0   0  4
+  [120] .data             PROGBITS        20000000 003000 000148 00  WA  0   0  4
+  [121] .bss              NOBITS          20000148 003148 0002a8 00  WA  0   0  4
+  [122] .csky.attributes  CSKY_ATTRIBUTES 00000000 003148 00001f 00      0   0  1
+  [123] .comment          PROGBITS        00000000 003167 000042 01  MS  0   0  1
+  [124] .csky_stack_size  PROGBITS        00000000 0031b0 00063c 00      0   0 16
+  [125] .debug_line       PROGBITS        00000000 0037ec 003475 00      0   0  1
+  [126] .debug_info       PROGBITS        00000000 006c61 023046 00      0   0  1
+  [127] .debug_abbrev     PROGBITS        00000000 029ca7 001f5b 00      0   0  1
+  [128] .debug_aranges    PROGBITS        00000000 02bc08 000820 00      0   0  8
+  [129] .debug_ranges     PROGBITS        00000000 02c428 0006f0 00      0   0  1
+  [130] .debug_macinfo    PROGBITS        00000000 02cb18 05a143 00      0   0  1
+  [131] .debug_str        PROGBITS        00000000 086c5b 005df3 01  MS  0   0  1
+  [132] .debug_frame      PROGBITS        00000000 08ca50 001340 00      0   0  4
+  [133] .debug_loc        PROGBITS        00000000 08dd90 0013b3 00      0   0  1
+  [134] .shstrtab         STRTAB          00000000 092f5a 0009b4 00      0   0  1
+  [135] .symtab           SYMTAB          00000000 08f144 002fa0 10     136 492  4
+  [136] .strtab           STRTAB          00000000 0920e4 000e76 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  p (processor specific)
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  LOAD           0x000400 0x00001000 0x00001000 0x029c4 0x029c4 R E 0x400
+  LOAD           0x003000 0x20000000 0x000039c4 0x00148 0x003f0 RW  0x400
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .text .text.__main .text.__divsi3 .text.__udivsi3 .text.__modsi3 .text.__umodsi3 .text.ReadDataArry .text.ProgramData_Word .text.BT_DeInit .text.BT_IO_Init .text.BT_Start .text.BT_Configure .text.BT_ControlSet_Configure .text.BT_Period_CMP_Write .text.BT_ConfigInterrupt_CMD .text.BT0_INT_ENABLE .text.GPIO_Init .text.GPIO_PullHigh_Init .text.GPIO_Write_High .text.GPIO_Write_Low .text.GPIO_Reverse .text.GPIO_Read_Status .text.GPIO_Read_Output .text.I2C_ConfigInterrupt_CMD .text.I2C_Enable .text.I2C_Disable .text.I2C_Slave_Receive .text.UART1_DeInit .text.UART2_DeInit .text.UART1_Int_Enable .text.UART2_Int_Enable .text.UART_IO_Init .text.UARTInitRxTxIntEn .text.UARTTxByte .text.WWDT_CNT_Load .text.IoInit .text.rst_mcu .text.feed_IWDT .text.Wait .text.Ram_Init .text.startup.main .text.BT_CONFIG .text.UART1_CONFIG .text.UART2_CONFIG .text.IFC_CONFIG .text.CORETHandler .text.SYSCONIntHandler .text.IFCIntHandler .text.EPT0IntHandler .text.WWDTHandler .text.GPT0IntHandler .text.RTCIntHandler .text.UART0IntHandler .text.UART1IntHandler .text.UART2IntHandler .text.I2CIntHandler .text.SPI0IntHandler .text.SIO0IntHandler .text.EXI0IntHandler .text.EXI1IntHandler .text.EXI2to3IntHandler .text.EXI4to8IntHandler .text.EXI9to13IntHandler .text.LPTIntHandler .text.BT0IntHandler .text.BT1IntHandler .text.PriviledgeVioHandler .text.PendTrapHandler .text.Trap3Handler .text.Trap2Handler .text.Trap1Handler .text.Trap0Handler .text.UnrecExecpHandler .text.BreakPointHandler .text.AccessErrHandler .text.IllegalInstrHandler .text.MisalignedHandler .text.TKEYIntHandler .text.CNTAIntHandler .text.ADCIntHandler .text.__putchar__ .text.myitoa .text.my_printf .text.FlagGetBit .text.FlagSetBit .text.FlagClearBit .text.FlagReverseBit .text.HtBitsWr .text.ht_wr_4bit .text.LcdInit .text.SetBeep .text.Bled_On .text.Key_Power_Switch .text.Key_Add .text.Key_Dec .text.Key_WifiRst .text.ScanKey .text.GetTmpDisp .text.SetClkDisp .text.GetTmrDisp .text.GetWiFiDisp .text.GetLockDisp .text.SetDisplay .text.Lcd_Disp .text.Uart_Send_String .text.Tx_Data_Sum .text.Send_Data_Pid .text.Send_Data_Hot .text.Send_Data_Hot_Ack .text.Send_Data_STTemp .text.Send_Data_STTemp_Ack .text.Send_Data_RTTemp .text.Send_Data_Sence .text.Get_Sum .text.rw_compare .text.Uart_Rx .text.Uart_Tx_Rx .rodata 
+   01     .data .bss 
+======================================================================
+Csky GNU Linker
+
+======================================================================
+
+Section Cross References
+
+	Obj/source_disp.o(.text.GetTmpDisp) refers to Obj/drivers_apt32f102.o(.text.__divsi3) for __divsi3
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/drivers_apt32f102.o(.text.__divsi3) for __divsi3
+	Obj/FWlib_apt32f101_ifc.o(.text.ProgramData_Word) refers to Obj/drivers_apt32f102.o(.text.__udivsi3) for __udivsi3
+	Obj/source_iostring.o(.text.myitoa) refers to Obj/drivers_apt32f102.o(.text.__udivsi3) for __udivsi3
+	Obj/source_disp.o(.text.SetClkDisp) refers to Obj/drivers_apt32f102.o(.text.__udivsi3) for __udivsi3
+	Obj/source_disp.o(.text.GetTmrDisp) refers to Obj/drivers_apt32f102.o(.text.__udivsi3) for __udivsi3
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/drivers_apt32f102.o(.text.__udivsi3) for __udivsi3
+	Obj/source_disp.o(.text.GetTmpDisp) refers to Obj/drivers_apt32f102.o(.text.__modsi3) for __modsi3
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/drivers_apt32f102.o(.text.__modsi3) for __modsi3
+	Obj/FWlib_apt32f101_ifc.o(.text.ProgramData_Word) refers to Obj/drivers_apt32f102.o(.text.__umodsi3) for __umodsi3
+	Obj/source_iostring.o(.text.myitoa) refers to Obj/drivers_apt32f102.o(.text.__umodsi3) for __umodsi3
+	Obj/source_disp.o(.text.SetClkDisp) refers to Obj/drivers_apt32f102.o(.text.__umodsi3) for __umodsi3
+	Obj/source_disp.o(.text.GetTmrDisp) refers to Obj/drivers_apt32f102.o(.text.__umodsi3) for __umodsi3
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/drivers_apt32f102.o(.text.__umodsi3) for __umodsi3
+	Obj/FWlib_apt32f101_ifc.o(.text.ProgramData_Word) refers to Obj/FWlib_apt32f101_ifc.o(.text.ReadDataArry) for ReadDataArry
+	Obj/source_main.o(.text.startup.main) refers to Obj/FWlib_apt32f101_ifc.o(.text.ReadDataArry) for ReadDataArry
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/FWlib_apt32f101_ifc.o(.text.ReadDataArry) for ReadDataArry
+	Obj/source_main.o(.text.startup.main) refers to Obj/FWlib_apt32f101_ifc.o(.text.ProgramData_Word) for ProgramData_Word
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/FWlib_apt32f101_ifc.o(.text.ProgramData_Word) for ProgramData_Word
+	Obj/source_apt32f102_initial.o(.text.BT_CONFIG) refers to Obj/FWlib_apt32f102_bt.o(.text.BT_DeInit) for BT_DeInit
+	Obj/source_apt32f102_initial.o(.text.BT_CONFIG) refers to Obj/FWlib_apt32f102_bt.o(.text.BT_IO_Init) for BT_IO_Init
+	Obj/source_apt32f102_initial.o(.text.BT_CONFIG) refers to Obj/FWlib_apt32f102_bt.o(.text.BT_Start) for BT_Start
+	Obj/source_apt32f102_initial.o(.text.BT_CONFIG) refers to Obj/FWlib_apt32f102_bt.o(.text.BT_Configure) for BT_Configure
+	Obj/source_apt32f102_initial.o(.text.BT_CONFIG) refers to Obj/FWlib_apt32f102_bt.o(.text.BT_ControlSet_Configure) for BT_ControlSet_Configure
+	Obj/source_apt32f102_initial.o(.text.BT_CONFIG) refers to Obj/FWlib_apt32f102_bt.o(.text.BT_Period_CMP_Write) for BT_Period_CMP_Write
+	Obj/source_apt32f102_initial.o(.text.BT_CONFIG) refers to Obj/FWlib_apt32f102_bt.o(.text.BT_ConfigInterrupt_CMD) for BT_ConfigInterrupt_CMD
+	Obj/source_apt32f102_initial.o(.text.BT_CONFIG) refers to Obj/FWlib_apt32f102_bt.o(.text.BT0_INT_ENABLE) for BT0_INT_ENABLE
+	Obj/source_main.o(.text.startup.main) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Write_Low) for GPIO_Write_Low
+	Obj/source_apt32f102_interrupt.o(.text.BT0IntHandler) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Write_Low) for GPIO_Write_Low
+	Obj/source_Ht1621.o(.text.HtBitsWr) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Write_Low) for GPIO_Write_Low
+	Obj/source_apt32f102_interrupt.o(.text.WWDTHandler) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Reverse) for GPIO_Reverse
+	Obj/source_key.o(.text.ScanKey) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Read_Status) for GPIO_Read_Status
+	Obj/source_main.o(.text.startup.main) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Read_Output) for GPIO_Read_Output
+	Obj/source_main.o(.text.IoInit) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Init) for GPIO_Init
+	Obj/source_main.o(.text.startup.main) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Init) for GPIO_Init
+	Obj/source_apt32f102_interrupt.o(.text.WWDTHandler) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Init) for GPIO_Init
+	Obj/source_Ht1621.o(.text.HtBitsWr) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Init) for GPIO_Init
+	Obj/source_main.o(.text.IoInit) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_PullHigh_Init) for GPIO_PullHigh_Init
+	Obj/source_main.o(.text.startup.main) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Write_High) for GPIO_Write_High
+	Obj/source_apt32f102_interrupt.o(.text.BT0IntHandler) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Write_High) for GPIO_Write_High
+	Obj/source_Ht1621.o(.text.HtBitsWr) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Write_High) for GPIO_Write_High
+	Obj/source_key.o(.text.Bled_On) refers to Obj/FWlib_apt32f102_gpio.o(.text.GPIO_Write_High) for GPIO_Write_High
+	Obj/FWlib_apt32f102_i2c.o(.text.I2C_Slave_Receive) refers to Obj/FWlib_apt32f102_i2c.o(.text.I2C_ConfigInterrupt_CMD) for I2C_ConfigInterrupt_CMD
+	Obj/FWlib_apt32f102_i2c.o(.text.I2C_Slave_Receive) refers to Obj/FWlib_apt32f102_i2c.o(.text.I2C_Enable) for I2C_Enable
+	Obj/FWlib_apt32f102_i2c.o(.text.I2C_Slave_Receive) refers to Obj/FWlib_apt32f102_i2c.o(.text.I2C_Disable) for I2C_Disable
+	Obj/source_apt32f102_interrupt.o(.text.I2CIntHandler) refers to Obj/FWlib_apt32f102_i2c.o(.text.I2C_Slave_Receive) for I2C_Slave_Receive
+	Obj/source_apt32f102_initial.o(.text.UART1_CONFIG) refers to Obj/FWlib_apt32f102_uart.o(.text.UART1_DeInit) for UART1_DeInit
+	Obj/source_apt32f102_initial.o(.text.UART2_CONFIG) refers to Obj/FWlib_apt32f102_uart.o(.text.UART2_DeInit) for UART2_DeInit
+	Obj/source_apt32f102_initial.o(.text.UART1_CONFIG) refers to Obj/FWlib_apt32f102_uart.o(.text.UART1_Int_Enable) for UART1_Int_Enable
+	Obj/source_apt32f102_initial.o(.text.UART2_CONFIG) refers to Obj/FWlib_apt32f102_uart.o(.text.UART2_Int_Enable) for UART2_Int_Enable
+	Obj/source_apt32f102_initial.o(.text.UART1_CONFIG) refers to Obj/FWlib_apt32f102_uart.o(.text.UART_IO_Init) for UART_IO_Init
+	Obj/source_apt32f102_initial.o(.text.UART2_CONFIG) refers to Obj/FWlib_apt32f102_uart.o(.text.UART_IO_Init) for UART_IO_Init
+	Obj/source_apt32f102_initial.o(.text.UART1_CONFIG) refers to Obj/FWlib_apt32f102_uart.o(.text.UARTInitRxTxIntEn) for UARTInitRxTxIntEn
+	Obj/source_apt32f102_initial.o(.text.UART2_CONFIG) refers to Obj/FWlib_apt32f102_uart.o(.text.UARTInitRxTxIntEn) for UARTInitRxTxIntEn
+	Obj/source_iostring.o(.text.__putchar__) refers to Obj/FWlib_apt32f102_uart.o(.text.UARTTxByte) for UARTTxByte
+	Obj/source_uart.o(.text.Uart_Send_String) refers to Obj/FWlib_apt32f102_uart.o(.text.UARTTxByte) for UARTTxByte
+	Obj/source_apt32f102_interrupt.o(.text.WWDTHandler) refers to Obj/FWlib_apt32f102_wwdt.o(.text.WWDT_CNT_Load) for WWDT_CNT_Load
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_main.o(.text.IoInit) for IoInit
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_main.o(.text.rst_mcu) for rst_mcu
+	Obj/source_main.o(.text.Wait) refers to Obj/source_main.o(.text.feed_IWDT) for feed_IWDT
+	Obj/source_main.o(.text.Ram_Init) refers to Obj/source_main.o(.text.feed_IWDT) for feed_IWDT
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_main.o(.text.feed_IWDT) for feed_IWDT
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_main.o(.text.feed_IWDT) for feed_IWDT
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_main.o(.text.feed_IWDT) for feed_IWDT
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_main.o(.text.Wait) for Wait
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_main.o(.text.Ram_Init) for Ram_Init
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_apt32f102_initial.o(.text.BT_CONFIG) for BT_CONFIG
+	Obj/source_main.o(.text.IoInit) refers to Obj/source_apt32f102_initial.o(.text.UART1_CONFIG) for UART1_CONFIG
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_apt32f102_initial.o(.text.UART2_CONFIG) for UART2_CONFIG
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_apt32f102_initial.o(.text.IFC_CONFIG) for IFC_CONFIG
+	Obj/source_iostring.o(.text.my_printf) refers to Obj/source_iostring.o(.text.__putchar__) for __putchar__
+	Obj/source_iostring.o(.text.my_printf) refers to Obj/source_iostring.o(.text.myitoa) for myitoa
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_iostring.o(.text.my_printf) for my_printf
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_iostring.o(.text.my_printf) for my_printf
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_key.o(.text.SetBeep) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_key.o(.text.Key_Power_Switch) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_key.o(.text.Key_Add) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_key.o(.text.Key_Dec) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_key.o(.text.Key_WifiRst) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_key.o(.text.ScanKey) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_disp.o(.text.SetClkDisp) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_disp.o(.text.GetTmrDisp) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_disp.o(.text.GetWiFiDisp) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_disp.o(.text.GetLockDisp) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_uart.o(.text.Send_Data_Hot) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_uart.o(.text.Send_Data_Sence) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_define.o(.text.FlagGetBit) for FlagGetBit
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_apt32f102_interrupt.o(.text.UART2IntHandler) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_apt32f102_interrupt.o(.text.BT0IntHandler) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_key.o(.text.Key_Power_Switch) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_key.o(.text.Key_Add) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_key.o(.text.Key_Dec) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_key.o(.text.Key_WifiRst) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_key.o(.text.ScanKey) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_uart.o(.text.Send_Data_Hot_Ack) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_define.o(.text.FlagSetBit) for FlagSetBit
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_apt32f102_interrupt.o(.text.BT0IntHandler) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_key.o(.text.Key_Power_Switch) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_key.o(.text.Key_Add) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_key.o(.text.Key_Dec) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_key.o(.text.Key_WifiRst) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_key.o(.text.ScanKey) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_uart.o(.text.Send_Data_Hot_Ack) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_define.o(.text.FlagClearBit) for FlagClearBit
+	Obj/source_apt32f102_interrupt.o(.text.BT0IntHandler) refers to Obj/source_define.o(.text.FlagReverseBit) for FlagReverseBit
+	Obj/source_key.o(.text.Key_Power_Switch) refers to Obj/source_define.o(.text.FlagReverseBit) for FlagReverseBit
+	Obj/source_key.o(.text.Key_WifiRst) refers to Obj/source_define.o(.text.FlagReverseBit) for FlagReverseBit
+	Obj/source_Ht1621.o(.text.ht_wr_4bit) refers to Obj/source_Ht1621.o(.text.HtBitsWr) for HtBitsWr
+	Obj/source_Ht1621.o(.text.LcdInit) refers to Obj/source_Ht1621.o(.text.HtBitsWr) for HtBitsWr
+	Obj/source_disp.o(.text.Lcd_Disp) refers to Obj/source_Ht1621.o(.text.ht_wr_4bit) for ht_wr_4bit
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_Ht1621.o(.text.LcdInit) for LcdInit
+	Obj/source_key.o(.text.Key_Power_Switch) refers to Obj/source_key.o(.text.SetBeep) for SetBeep
+	Obj/source_key.o(.text.Key_Add) refers to Obj/source_key.o(.text.SetBeep) for SetBeep
+	Obj/source_key.o(.text.Key_Dec) refers to Obj/source_key.o(.text.SetBeep) for SetBeep
+	Obj/source_key.o(.text.Key_WifiRst) refers to Obj/source_key.o(.text.SetBeep) for SetBeep
+	Obj/source_uart.o(.text.Send_Data_Hot_Ack) refers to Obj/source_key.o(.text.SetBeep) for SetBeep
+	Obj/source_uart.o(.text.Send_Data_STTemp_Ack) refers to Obj/source_key.o(.text.SetBeep) for SetBeep
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_key.o(.text.Bled_On) for Bled_On
+	Obj/source_key.o(.text.Key_Power_Switch) refers to Obj/source_key.o(.text.Bled_On) for Bled_On
+	Obj/source_key.o(.text.Key_Add) refers to Obj/source_key.o(.text.Bled_On) for Bled_On
+	Obj/source_key.o(.text.Key_Dec) refers to Obj/source_key.o(.text.Bled_On) for Bled_On
+	Obj/source_key.o(.text.Key_WifiRst) refers to Obj/source_key.o(.text.Bled_On) for Bled_On
+	Obj/source_uart.o(.text.Send_Data_Hot_Ack) refers to Obj/source_key.o(.text.Bled_On) for Bled_On
+	Obj/source_uart.o(.text.Send_Data_STTemp_Ack) refers to Obj/source_key.o(.text.Bled_On) for Bled_On
+	Obj/source_key.o(.text.ScanKey) refers to Obj/source_key.o(.text.Key_Power_Switch) for Key_Power_Switch
+	Obj/source_key.o(.text.ScanKey) refers to Obj/source_key.o(.text.Key_Add) for Key_Add
+	Obj/source_key.o(.text.ScanKey) refers to Obj/source_key.o(.text.Key_Dec) for Key_Dec
+	Obj/source_key.o(.text.ScanKey) refers to Obj/source_key.o(.text.Key_WifiRst) for Key_WifiRst
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_key.o(.text.ScanKey) for ScanKey
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/source_disp.o(.text.GetTmpDisp) for GetTmpDisp
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/source_disp.o(.text.SetClkDisp) for SetClkDisp
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/source_disp.o(.text.GetTmrDisp) for GetTmrDisp
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/source_disp.o(.text.GetWiFiDisp) for GetWiFiDisp
+	Obj/source_disp.o(.text.SetDisplay) refers to Obj/source_disp.o(.text.GetLockDisp) for GetLockDisp
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_disp.o(.text.SetDisplay) for SetDisplay
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_disp.o(.text.Lcd_Disp) for Lcd_Disp
+	Obj/source_uart.o(.text.Send_Data_Pid) refers to Obj/source_uart.o(.text.Uart_Send_String) for Uart_Send_String
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.Uart_Send_String) for Uart_Send_String
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_uart.o(.text.Uart_Send_String) for Uart_Send_String
+	Obj/source_uart.o(.text.Send_Data_Pid) refers to Obj/source_uart.o(.text.Tx_Data_Sum) for Tx_Data_Sum
+	Obj/source_uart.o(.text.Send_Data_Hot) refers to Obj/source_uart.o(.text.Tx_Data_Sum) for Tx_Data_Sum
+	Obj/source_uart.o(.text.Send_Data_Hot_Ack) refers to Obj/source_uart.o(.text.Tx_Data_Sum) for Tx_Data_Sum
+	Obj/source_uart.o(.text.Send_Data_STTemp) refers to Obj/source_uart.o(.text.Tx_Data_Sum) for Tx_Data_Sum
+	Obj/source_uart.o(.text.Send_Data_STTemp_Ack) refers to Obj/source_uart.o(.text.Tx_Data_Sum) for Tx_Data_Sum
+	Obj/source_uart.o(.text.Send_Data_RTTemp) refers to Obj/source_uart.o(.text.Tx_Data_Sum) for Tx_Data_Sum
+	Obj/source_uart.o(.text.Send_Data_Sence) refers to Obj/source_uart.o(.text.Tx_Data_Sum) for Tx_Data_Sum
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_uart.o(.text.Send_Data_Pid) for Send_Data_Pid
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.Send_Data_Pid) for Send_Data_Pid
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.Send_Data_Hot) for Send_Data_Hot
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_uart.o(.text.Send_Data_Hot) for Send_Data_Hot
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.Send_Data_Hot_Ack) for Send_Data_Hot_Ack
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.Send_Data_STTemp) for Send_Data_STTemp
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_uart.o(.text.Send_Data_STTemp) for Send_Data_STTemp
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.Send_Data_STTemp_Ack) for Send_Data_STTemp_Ack
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.Send_Data_RTTemp) for Send_Data_RTTemp
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_uart.o(.text.Send_Data_RTTemp) for Send_Data_RTTemp
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_uart.o(.text.Send_Data_Sence) for Send_Data_Sence
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.Get_Sum) for Get_Sum
+	Obj/source_uart.o(.text.Uart_Rx) refers to Obj/source_uart.o(.text.rw_compare) for rw_compare
+	Obj/source_uart.o(.text.Uart_Tx_Rx) refers to Obj/source_uart.o(.text.Uart_Rx) for Uart_Rx
+	Obj/source_main.o(.text.startup.main) refers to Obj/source_uart.o(.text.Uart_Tx_Rx) for Uart_Tx_Rx
+	Obj/source_uart.o(.text.Uart_Rx) refers to _csky_case_uhi.o(.text) for ___gnu_csky_case_uhi
+	Obj/arch_mem_init.o(.text.__main) refers to memset_fast.o(.text) for memset
+	Obj/FWlib_apt32f101_ifc.o(.text.ProgramData_Word) refers to memset_fast.o(.text) for memset
+	Obj/source_uart.o(.text.Uart_Rx) refers to memset_fast.o(.text) for memset
+	Obj/arch_mem_init.o(.text.__main) refers to memcpy_fast.o(.text) for memcpy
+
+
+======================================================================
+
+Removing Unused input sections from the image. 
+
+	Removing .data(Obj/arch_crt0.o), (4 bytes).
+	Removing .bss(Obj/arch_crt0.o), (0 bytes).
+	Removing .text(Obj/arch_mem_init.o), (0 bytes).
+	Removing .data(Obj/arch_mem_init.o), (0 bytes).
+	Removing .bss(Obj/arch_mem_init.o), (0 bytes).
+	Removing .text(Obj/drivers_apt32f102.o), (0 bytes).
+	Removing .bss(Obj/drivers_apt32f102.o), (0 bytes).
+	Removing .text(Obj/drivers_apt32f102_ck801.o), (0 bytes).
+	Removing .data(Obj/drivers_apt32f102_ck801.o), (0 bytes).
+	Removing .bss(Obj/drivers_apt32f102_ck801.o), (0 bytes).
+	Removing .text.CK801_Init(Obj/drivers_apt32f102_ck801.o), (108 bytes).
+	Removing .text.force_interrupt(Obj/drivers_apt32f102_ck801.o), (24 bytes).
+	Removing .text.CK_CPU_EnAllNormalIrq(Obj/drivers_apt32f102_ck801.o), (6 bytes).
+	Removing .text.CK_CPU_DisAllNormalIrq(Obj/drivers_apt32f102_ck801.o), (6 bytes).
+	Removing .debug_info(Obj/drivers_apt32f102_ck801.o), (7063 bytes).
+	Removing .debug_abbrev(Obj/drivers_apt32f102_ck801.o), (370 bytes).
+	Removing .debug_aranges(Obj/drivers_apt32f102_ck801.o), (56 bytes).
+	Removing .debug_ranges(Obj/drivers_apt32f102_ck801.o), (40 bytes).
+	Removing .debug_macinfo(Obj/drivers_apt32f102_ck801.o), (15596 bytes).
+	Removing .debug_line(Obj/drivers_apt32f102_ck801.o), (225 bytes).
+	Removing .debug_str(Obj/drivers_apt32f102_ck801.o), (3046 bytes).
+	Removing .comment(Obj/drivers_apt32f102_ck801.o), (67 bytes).
+	Removing .debug_frame(Obj/drivers_apt32f102_ck801.o), (80 bytes).
+	Removing .csky.attributes(Obj/drivers_apt32f102_ck801.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f101_adc.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f101_adc.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f101_adc.o), (0 bytes).
+	Removing .text.ADC12_RESET_VALUE(Obj/FWlib_apt32f101_adc.o), (108 bytes).
+	Removing .text.ADC12_Control(Obj/FWlib_apt32f101_adc.o), (16 bytes).
+	Removing .text.ADC12_CMD.part.0(Obj/FWlib_apt32f101_adc.o), (32 bytes).
+	Removing .text.ADC12_ConfigInterrupt_CMD(Obj/FWlib_apt32f101_adc.o), (32 bytes).
+	Removing .text.ADC12_Read_IntEnStatus(Obj/FWlib_apt32f101_adc.o), (20 bytes).
+	Removing .text.ADC12_CLK_CMD(Obj/FWlib_apt32f101_adc.o), (44 bytes).
+	Removing .text.ADC12_Software_Reset(Obj/FWlib_apt32f101_adc.o), (10 bytes).
+	Removing .text.ADC12_CMD(Obj/FWlib_apt32f101_adc.o), (40 bytes).
+	Removing .text.ADC12_ready_wait(Obj/FWlib_apt32f101_adc.o), (20 bytes).
+	Removing .text.ADC12_EOC_wait(Obj/FWlib_apt32f101_adc.o), (20 bytes).
+	Removing .text.ADC12_SEQEND_wait(Obj/FWlib_apt32f101_adc.o), (24 bytes).
+	Removing .text.ADC12_DATA_OUPUT(Obj/FWlib_apt32f101_adc.o), (20 bytes).
+	Removing .text.ADC12_Configure_Mode(Obj/FWlib_apt32f101_adc.o), (124 bytes).
+	Removing .text.ADC12_Configure_VREF_Selecte(Obj/FWlib_apt32f101_adc.o), (384 bytes).
+	Removing .text.ADC12_CompareFunction_set(Obj/FWlib_apt32f101_adc.o), (32 bytes).
+	Removing .text.ADC12_ConversionChannel_Config(Obj/FWlib_apt32f101_adc.o), (336 bytes).
+	Removing .text.ADC12_Compare_statue(Obj/FWlib_apt32f101_adc.o), (44 bytes).
+	Removing .text.ADC_Int_Enable(Obj/FWlib_apt32f101_adc.o), (28 bytes).
+	Removing .text.ADC_Int_Disable(Obj/FWlib_apt32f101_adc.o), (12 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f101_adc.o), (8605 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f101_adc.o), (650 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f101_adc.o), (818 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f101_adc.o), (176 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f101_adc.o), (160 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f101_adc.o), (16022 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f101_adc.o), (723 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f101_adc.o), (4939 bytes).
+	Removing .comment(Obj/FWlib_apt32f101_adc.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f101_adc.o), (392 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f101_adc.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f101_ifc.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f101_ifc.o), (0 bytes).
+	Removing .text.ChipErase(Obj/FWlib_apt32f101_ifc.o), (36 bytes).
+	Removing .text.PageErase(Obj/FWlib_apt32f101_ifc.o), (36 bytes).
+	Removing .text.Page_ProgramData_int(Obj/FWlib_apt32f101_ifc.o), (2 bytes).
+	Removing .text.Page_ProgramData(Obj/FWlib_apt32f101_ifc.o), (2 bytes).
+	Removing .text.IFC_interrupt_CMD(Obj/FWlib_apt32f101_ifc.o), (28 bytes).
+	Removing .text.IFC_Int_Enable(Obj/FWlib_apt32f101_ifc.o), (28 bytes).
+	Removing .text.IFC_Int_Disable(Obj/FWlib_apt32f101_ifc.o), (12 bytes).
+	Removing .text(Obj/FWlib_apt32f102_bt.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_bt.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_bt.o), (0 bytes).
+	Removing .text.BT_Stop(Obj/FWlib_apt32f102_bt.o), (8 bytes).
+	Removing .text.BT_Soft_Reset(Obj/FWlib_apt32f102_bt.o), (10 bytes).
+	Removing .text.BT_CNT_Write(Obj/FWlib_apt32f102_bt.o), (4 bytes).
+	Removing .text.BT_PRDR_Read(Obj/FWlib_apt32f102_bt.o), (6 bytes).
+	Removing .text.BT_CMP_Read(Obj/FWlib_apt32f102_bt.o), (6 bytes).
+	Removing .text.BT_CNT_Read(Obj/FWlib_apt32f102_bt.o), (6 bytes).
+	Removing .text.BT_Trigger_Configure(Obj/FWlib_apt32f102_bt.o), (10 bytes).
+	Removing .text.BT_Soft_Tigger(Obj/FWlib_apt32f102_bt.o), (6 bytes).
+	Removing .text.BT0_INT_DISABLE(Obj/FWlib_apt32f102_bt.o), (16 bytes).
+	Removing .text.BT1_INT_ENABLE(Obj/FWlib_apt32f102_bt.o), (16 bytes).
+	Removing .text.BT1_INT_DISABLE(Obj/FWlib_apt32f102_bt.o), (16 bytes).
+	Removing .text(Obj/FWlib_apt32f102_coret.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_coret.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_coret.o), (0 bytes).
+	Removing .text.CORET_DeInit(Obj/FWlib_apt32f102_coret.o), (24 bytes).
+	Removing .text.CORET_Int_Enable(Obj/FWlib_apt32f102_coret.o), (24 bytes).
+	Removing .text.CORET_Int_Disable(Obj/FWlib_apt32f102_coret.o), (12 bytes).
+	Removing .text.CORET_WakeUp_Enable(Obj/FWlib_apt32f102_coret.o), (12 bytes).
+	Removing .text.CORET_WakeUp_Disable(Obj/FWlib_apt32f102_coret.o), (12 bytes).
+	Removing .text.CORET_start(Obj/FWlib_apt32f102_coret.o), (16 bytes).
+	Removing .text.CORET_stop(Obj/FWlib_apt32f102_coret.o), (16 bytes).
+	Removing .text.CORET_CLKSOURCE_EX(Obj/FWlib_apt32f102_coret.o), (16 bytes).
+	Removing .text.CORET_CLKSOURCE_IN(Obj/FWlib_apt32f102_coret.o), (16 bytes).
+	Removing .text.CORET_TICKINT_Enable(Obj/FWlib_apt32f102_coret.o), (16 bytes).
+	Removing .text.CORET_TICKINT_Disable(Obj/FWlib_apt32f102_coret.o), (16 bytes).
+	Removing .text.CORET_reload(Obj/FWlib_apt32f102_coret.o), (16 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_coret.o), (7087 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_coret.o), (297 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_coret.o), (120 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_coret.o), (104 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_coret.o), (19034 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_coret.o), (407 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_coret.o), (2837 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_coret.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_coret.o), (208 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_coret.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_countera.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_countera.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_countera.o), (0 bytes).
+	Removing .text.COUNT_DeInit(Obj/FWlib_apt32f102_countera.o), (20 bytes).
+	Removing .text.COUNTA_Int_Enable(Obj/FWlib_apt32f102_countera.o), (16 bytes).
+	Removing .text.COUNTA_Int_Disable(Obj/FWlib_apt32f102_countera.o), (16 bytes).
+	Removing .text.COUNTA_Wakeup_Enable(Obj/FWlib_apt32f102_countera.o), (16 bytes).
+	Removing .text.COUNTA_Wakeup_Disable(Obj/FWlib_apt32f102_countera.o), (16 bytes).
+	Removing .text.COUNTA_Init(Obj/FWlib_apt32f102_countera.o), (60 bytes).
+	Removing .text.COUNTA_Config(Obj/FWlib_apt32f102_countera.o), (32 bytes).
+	Removing .text.COUNTA_Start(Obj/FWlib_apt32f102_countera.o), (20 bytes).
+	Removing .text.COUNTA_Stop(Obj/FWlib_apt32f102_countera.o), (16 bytes).
+	Removing .text.COUNTA_Data_Update(Obj/FWlib_apt32f102_countera.o), (20 bytes).
+	Removing .text.COUNTA_IO_Init(Obj/FWlib_apt32f102_countera.o), (84 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_countera.o), (7754 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_countera.o), (383 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_countera.o), (336 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_countera.o), (112 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_countera.o), (96 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_countera.o), (15646 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_countera.o), (390 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_countera.o), (3399 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_countera.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_countera.o), (224 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_countera.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_crc.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_crc.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_crc.o), (0 bytes).
+	Removing .text.CRC_CMD(Obj/FWlib_apt32f102_crc.o), (24 bytes).
+	Removing .text.CRC_Soft_Reset(Obj/FWlib_apt32f102_crc.o), (16 bytes).
+	Removing .text.CRC_Configure(Obj/FWlib_apt32f102_crc.o), (32 bytes).
+	Removing .text.CRC_Seed_Write(Obj/FWlib_apt32f102_crc.o), (12 bytes).
+	Removing .text.CRC_Seed_Read(Obj/FWlib_apt32f102_crc.o), (12 bytes).
+	Removing .text.CRC_Datain(Obj/FWlib_apt32f102_crc.o), (12 bytes).
+	Removing .text.CRC_Result_Read(Obj/FWlib_apt32f102_crc.o), (12 bytes).
+	Removing .text.Chip_CRC_CRC32(Obj/FWlib_apt32f102_crc.o), (28 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_crc.o), (7459 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_crc.o), (551 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_crc.o), (187 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_crc.o), (88 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_crc.o), (96 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_crc.o), (15647 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_crc.o), (329 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_crc.o), (3027 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_crc.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_crc.o), (156 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_crc.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_ept.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_ept.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_ept.o), (0 bytes).
+	Removing .text.EPT_Software_Prg(Obj/FWlib_apt32f102_ept.o), (32 bytes).
+	Removing .text.EPT_Start(Obj/FWlib_apt32f102_ept.o), (40 bytes).
+	Removing .text.EPT_Stop(Obj/FWlib_apt32f102_ept.o), (40 bytes).
+	Removing .text.EPT_IO_SET(Obj/FWlib_apt32f102_ept.o), (552 bytes).
+	Removing .text.EPT_PWM_Config(Obj/FWlib_apt32f102_ept.o), (56 bytes).
+	Removing .text.EPT_Capture_Config(Obj/FWlib_apt32f102_ept.o), (104 bytes).
+	Removing .text.EPT_FLT_Config(Obj/FWlib_apt32f102_ept.o), (40 bytes).
+	Removing .text.EPT_SYNCR_Config(Obj/FWlib_apt32f102_ept.o), (52 bytes).
+	Removing .text.EPT_EPX_Config(Obj/FWlib_apt32f102_ept.o), (172 bytes).
+	Removing .text.EPT_CPCR_Config(Obj/FWlib_apt32f102_ept.o), (76 bytes).
+	Removing .text.EPT_DBCR_Config(Obj/FWlib_apt32f102_ept.o), (96 bytes).
+	Removing .text.EPT_DB_CLK_Config(Obj/FWlib_apt32f102_ept.o), (16 bytes).
+	Removing .text.EPT_PWMX_Output_Control(Obj/FWlib_apt32f102_ept.o), (216 bytes).
+	Removing .text.EPT_Tevent_Selecte(Obj/FWlib_apt32f102_ept.o), (16 bytes).
+	Removing .text.EPT_PHSEN_Config(Obj/FWlib_apt32f102_ept.o), (24 bytes).
+	Removing .text.EPT_PRDR_CMPA_CMPB_CMPC_CMPD_Config(Obj/FWlib_apt32f102_ept.o), (28 bytes).
+	Removing .text.EPT_SYNCR_Rearm(Obj/FWlib_apt32f102_ept.o), (44 bytes).
+	Removing .text.EPT_Caputure_Rearm(Obj/FWlib_apt32f102_ept.o), (20 bytes).
+	Removing .text.EPT_Globle_Eventload_Config(Obj/FWlib_apt32f102_ept.o), (40 bytes).
+	Removing .text.EPT_Globle_SwLoad_Config(Obj/FWlib_apt32f102_ept.o), (32 bytes).
+	Removing .text.EPT_PRDR_EventLoad_Config(Obj/FWlib_apt32f102_ept.o), (28 bytes).
+	Removing .text.EPT_CMP_EventLoad_Config(Obj/FWlib_apt32f102_ept.o), (68 bytes).
+	Removing .text.EPT_AQCR_Eventload_Config(Obj/FWlib_apt32f102_ept.o), (72 bytes).
+	Removing .text.EPT_DB_Eventload_Config(Obj/FWlib_apt32f102_ept.o), (72 bytes).
+	Removing .text.EPT_TRGSRCX_Config(Obj/FWlib_apt32f102_ept.o), (140 bytes).
+	Removing .text.EPT_TRGSRCX_SWFTRG(Obj/FWlib_apt32f102_ept.o), (72 bytes).
+	Removing .text.EPT_Int_Enable(Obj/FWlib_apt32f102_ept.o), (20 bytes).
+	Removing .text.EPT_Int_Disable(Obj/FWlib_apt32f102_ept.o), (20 bytes).
+	Removing .text.EPT_EMInt_Enable(Obj/FWlib_apt32f102_ept.o), (20 bytes).
+	Removing .text.EPT_EMInt_Disable(Obj/FWlib_apt32f102_ept.o), (20 bytes).
+	Removing .text.EPT_Vector_Int_Enable(Obj/FWlib_apt32f102_ept.o), (12 bytes).
+	Removing .text.EPT_Vector_Int_Disable(Obj/FWlib_apt32f102_ept.o), (12 bytes).
+	Removing .text.EPT_LKCR_TRG_Config(Obj/FWlib_apt32f102_ept.o), (116 bytes).
+	Removing .text.EPT_SHLOCK_OUTPUT_Config(Obj/FWlib_apt32f102_ept.o), (24 bytes).
+	Removing .text.EPT_SLock_CLR(Obj/FWlib_apt32f102_ept.o), (20 bytes).
+	Removing .text.EPT_HLock_CLR(Obj/FWlib_apt32f102_ept.o), (20 bytes).
+	Removing .text.EPT_SW_Set_lock(Obj/FWlib_apt32f102_ept.o), (28 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_ept.o), (12715 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_ept.o), (496 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_ept.o), (2377 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_ept.o), (320 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_ept.o), (304 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_ept.o), (15616 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_ept.o), (1203 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_ept.o), (12311 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_ept.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_ept.o), (752 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_ept.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_et.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_et.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_et.o), (0 bytes).
+	Removing .text.ET_DeInit(Obj/FWlib_apt32f102_et.o), (40 bytes).
+	Removing .text.ET_ENABLE(Obj/FWlib_apt32f102_et.o), (16 bytes).
+	Removing .text.ET_DISABLE(Obj/FWlib_apt32f102_et.o), (16 bytes).
+	Removing .text.ET_SWTRG_CMD(Obj/FWlib_apt32f102_et.o), (28 bytes).
+	Removing .text.ET_CH0_SRCSEL(Obj/FWlib_apt32f102_et.o), (108 bytes).
+	Removing .text.ET_CH0_CONTROL(Obj/FWlib_apt32f102_et.o), (40 bytes).
+	Removing .text.ET_CH1_SRCSEL(Obj/FWlib_apt32f102_et.o), (108 bytes).
+	Removing .text.ET_CH1_CONTROL(Obj/FWlib_apt32f102_et.o), (40 bytes).
+	Removing .text.ET_CH2_SRCSEL(Obj/FWlib_apt32f102_et.o), (108 bytes).
+	Removing .text.ET_CH2_CONTROL(Obj/FWlib_apt32f102_et.o), (40 bytes).
+	Removing .text.ET_CHx_CONTROL(Obj/FWlib_apt32f102_et.o), (276 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_et.o), (7736 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_et.o), (412 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_et.o), (1318 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_et.o), (112 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_et.o), (96 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_et.o), (16655 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_et.o), (504 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_et.o), (3144 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_et.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_et.o), (204 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_et.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_gpio.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_gpio.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_gpio.o), (0 bytes).
+	Removing .text.GPIO_DeInit(Obj/FWlib_apt32f102_gpio.o), (96 bytes).
+	Removing .text.GPIO_Init2(Obj/FWlib_apt32f102_gpio.o), (16 bytes).
+	Removing .text.GPIO_InPutOutPut_Disable(Obj/FWlib_apt32f102_gpio.o), (52 bytes).
+	Removing .text.GPIO_MODE_Init(Obj/FWlib_apt32f102_gpio.o), (34 bytes).
+	Removing .text.GPIO_PullLow_Init(Obj/FWlib_apt32f102_gpio.o), (20 bytes).
+	Removing .text.GPIO_PullHighLow_DIS(Obj/FWlib_apt32f102_gpio.o), (14 bytes).
+	Removing .text.GPIO_OpenDrain_EN(Obj/FWlib_apt32f102_gpio.o), (12 bytes).
+	Removing .text.GPIO_OpenDrain_DIS(Obj/FWlib_apt32f102_gpio.o), (14 bytes).
+	Removing .text.GPIO_TTL_COSM_Selecte(Obj/FWlib_apt32f102_gpio.o), (72 bytes).
+	Removing .text.GPIO_DriveStrength_EN(Obj/FWlib_apt32f102_gpio.o), (14 bytes).
+	Removing .text.GPIO_DriveStrength_DIS(Obj/FWlib_apt32f102_gpio.o), (16 bytes).
+	Removing .text.GPIO_IntGroup_Set(Obj/FWlib_apt32f102_gpio.o), (268 bytes).
+	Removing .text.GPIOA0_EXI_Init(Obj/FWlib_apt32f102_gpio.o), (252 bytes).
+	Removing .text.GPIOB0_EXI_Init(Obj/FWlib_apt32f102_gpio.o), (108 bytes).
+	Removing .text.GPIO_EXI_EN(Obj/FWlib_apt32f102_gpio.o), (12 bytes).
+	Removing .text.GPIO_Set_Value(Obj/FWlib_apt32f102_gpio.o), (22 bytes).
+	Removing .text(Obj/FWlib_apt32f102_gpt.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_gpt.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_gpt.o), (0 bytes).
+	Removing .text.GPT_DeInit(Obj/FWlib_apt32f102_gpt.o), (96 bytes).
+	Removing .text.GPT_IO_Init(Obj/FWlib_apt32f102_gpt.o), (152 bytes).
+	Removing .text.GPT_Configure(Obj/FWlib_apt32f102_gpt.o), (20 bytes).
+	Removing .text.GPT_WaveCtrl_Configure(Obj/FWlib_apt32f102_gpt.o), (68 bytes).
+	Removing .text.GPT_WaveLoad_Configure(Obj/FWlib_apt32f102_gpt.o), (20 bytes).
+	Removing .text.GPT_WaveOut_Configure(Obj/FWlib_apt32f102_gpt.o), (180 bytes).
+	Removing .text.GPT_OneceForce_Out(Obj/FWlib_apt32f102_gpt.o), (32 bytes).
+	Removing .text.GPT_Force_Out(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_CmpLoad_Configure(Obj/FWlib_apt32f102_gpt.o), (20 bytes).
+	Removing .text.GPT_Debug_Mode(Obj/FWlib_apt32f102_gpt.o), (24 bytes).
+	Removing .text.GPT_Start(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_Stop(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_Soft_Reset(Obj/FWlib_apt32f102_gpt.o), (20 bytes).
+	Removing .text.GPT_Cap_Rearm(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_Mode_CMD(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_REARM_Write(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_REARM_Read(Obj/FWlib_apt32f102_gpt.o), (20 bytes).
+	Removing .text.GPT_Period_CMP_Write(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_PRDR_Read(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_CMPA_Read(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_CMPB_Read(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_CNT_Read(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_ConfigInterrupt_CMD(Obj/FWlib_apt32f102_gpt.o), (28 bytes).
+	Removing .text.GPT_INT_ENABLE(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .text.GPT_INT_DISABLE(Obj/FWlib_apt32f102_gpt.o), (16 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_gpt.o), (9558 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_gpt.o), (555 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_gpt.o), (1304 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_gpt.o), (224 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_gpt.o), (208 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_gpt.o), (17127 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_gpt.o), (700 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_gpt.o), (5314 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_gpt.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_gpt.o), (488 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_gpt.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_hwdiv.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_hwdiv.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_hwdiv.o), (0 bytes).
+	Removing .text.HWDIV_DeInit(Obj/FWlib_apt32f102_hwdiv.o), (24 bytes).
+	Removing .text.HWDIV_UNSIGN_CMD(Obj/FWlib_apt32f102_hwdiv.o), (24 bytes).
+	Removing .text.HWDIV_Calc_UNSIGN(Obj/FWlib_apt32f102_hwdiv.o), (16 bytes).
+	Removing .text.HWDIV_Calc_Quotient(Obj/FWlib_apt32f102_hwdiv.o), (12 bytes).
+	Removing .text.HWDIV_Calc_Remain(Obj/FWlib_apt32f102_hwdiv.o), (12 bytes).
+	Removing .text.HWDIV_Calc_SIGN(Obj/FWlib_apt32f102_hwdiv.o), (16 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_hwdiv.o), (7070 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_hwdiv.o), (382 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_hwdiv.o), (72 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_hwdiv.o), (56 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_hwdiv.o), (15680 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_hwdiv.o), (284 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_hwdiv.o), (2765 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_hwdiv.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_hwdiv.o), (112 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_hwdiv.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_i2c.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_i2c.o), (0 bytes).
+	Removing .text.I2C_DeInit(Obj/FWlib_apt32f102_i2c.o), (24 bytes).
+	Removing .text.I2C_Master_CONFIG(Obj/FWlib_apt32f102_i2c.o), (320 bytes).
+	Removing .text.I2C_Slave_CONFIG(Obj/FWlib_apt32f102_i2c.o), (316 bytes).
+	Removing .text.I2C_SDA_TSETUP_THOLD_CONFIG(Obj/FWlib_apt32f102_i2c.o), (20 bytes).
+	Removing .text.I2C_FIFO_TriggerData(Obj/FWlib_apt32f102_i2c.o), (16 bytes).
+	Removing .text.I2C_Stop(Obj/FWlib_apt32f102_i2c.o), (16 bytes).
+	Removing .text.I2C_Abort_EN(Obj/FWlib_apt32f102_i2c.o), (16 bytes).
+	Removing .text.I2C_Abort_Status(Obj/FWlib_apt32f102_i2c.o), (20 bytes).
+	Removing .text.I2C_SDA_Recover_EN(Obj/FWlib_apt32f102_i2c.o), (16 bytes).
+	Removing .text.I2C_SDA_Recover_DIS(Obj/FWlib_apt32f102_i2c.o), (16 bytes).
+	Removing .text.I2C_Int_Enable(Obj/FWlib_apt32f102_i2c.o), (16 bytes).
+	Removing .text.I2C_Int_Disable(Obj/FWlib_apt32f102_i2c.o), (16 bytes).
+	Removing .text.I2C_WRITE_Byte(Obj/FWlib_apt32f102_i2c.o), (112 bytes).
+	Removing .text.I2C_WRITE_nByte(Obj/FWlib_apt32f102_i2c.o), (160 bytes).
+	Removing .text.I2C_READ_Byte(Obj/FWlib_apt32f102_i2c.o), (100 bytes).
+	Removing .text.I2C_READ_nByte(Obj/FWlib_apt32f102_i2c.o), (160 bytes).
+	Removing .text(Obj/FWlib_apt32f102_lpt.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_lpt.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_lpt.o), (0 bytes).
+	Removing .text.LPT_DeInit(Obj/FWlib_apt32f102_lpt.o), (60 bytes).
+	Removing .text.LPT_IO_Init(Obj/FWlib_apt32f102_lpt.o), (72 bytes).
+	Removing .text.LPT_Configure(Obj/FWlib_apt32f102_lpt.o), (44 bytes).
+	Removing .text.LPT_Debug_Mode(Obj/FWlib_apt32f102_lpt.o), (24 bytes).
+	Removing .text.LPT_Period_CMP_Write(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_CNT_Write(Obj/FWlib_apt32f102_lpt.o), (12 bytes).
+	Removing .text.LPT_PRDR_Read(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_CMP_Read(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_CNT_Read(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_ControlSet_Configure(Obj/FWlib_apt32f102_lpt.o), (40 bytes).
+	Removing .text.LPT_SyncSet_Configure(Obj/FWlib_apt32f102_lpt.o), (24 bytes).
+	Removing .text.LPT_Trigger_Configure(Obj/FWlib_apt32f102_lpt.o), (72 bytes).
+	Removing .text.LPT_Trigger_EVPS(Obj/FWlib_apt32f102_lpt.o), (20 bytes).
+	Removing .text.LPT_Trigger_Cnt(Obj/FWlib_apt32f102_lpt.o), (20 bytes).
+	Removing .text.LPT_Soft_Trigger(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_Start(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_Stop(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_Soft_Reset(Obj/FWlib_apt32f102_lpt.o), (20 bytes).
+	Removing .text.LPT_REARM_Write(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_REARM_Read(Obj/FWlib_apt32f102_lpt.o), (20 bytes).
+	Removing .text.LPT_ConfigInterrupt_CMD(Obj/FWlib_apt32f102_lpt.o), (28 bytes).
+	Removing .text.LPT_INT_ENABLE(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .text.LPT_INT_DISABLE(Obj/FWlib_apt32f102_lpt.o), (16 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_lpt.o), (8892 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_lpt.o), (487 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_lpt.o), (696 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_lpt.o), (208 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_lpt.o), (192 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_lpt.o), (15675 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_lpt.o), (628 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_lpt.o), (4680 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_lpt.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_lpt.o), (436 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_lpt.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_rtc.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_rtc.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_rtc.o), (0 bytes).
+	Removing .text.RTC_RST_VALUE(Obj/FWlib_apt32f102_rtc.o), (40 bytes).
+	Removing .text.RTC_ALM_IO_SET(Obj/FWlib_apt32f102_rtc.o), (52 bytes).
+	Removing .text.RTCCLK_CONFIG(Obj/FWlib_apt32f102_rtc.o), (72 bytes).
+	Removing .text.RTC_Function_Config(Obj/FWlib_apt32f102_rtc.o), (44 bytes).
+	Removing .text.RTC_Start(Obj/FWlib_apt32f102_rtc.o), (44 bytes).
+	Removing .text.RTC_Stop(Obj/FWlib_apt32f102_rtc.o), (44 bytes).
+	Removing .text.RTC_TIMR_DATR_SET(Obj/FWlib_apt32f102_rtc.o), (68 bytes).
+	Removing .text.RTC_TIMR_DATR_Read(Obj/FWlib_apt32f102_rtc.o), (72 bytes).
+	Removing .text.RTC_Alarm_TIMR_DATR_SET(Obj/FWlib_apt32f102_rtc.o), (144 bytes).
+	Removing .text.RTC_AlarmA_TIMR_DATR_Read(Obj/FWlib_apt32f102_rtc.o), (56 bytes).
+	Removing .text.RTC_AlarmB_TIMR_DATR_Read(Obj/FWlib_apt32f102_rtc.o), (56 bytes).
+	Removing .text.RTC_TRGSRC0_Config(Obj/FWlib_apt32f102_rtc.o), (40 bytes).
+	Removing .text.RTC_TRGSRC1_Config(Obj/FWlib_apt32f102_rtc.o), (40 bytes).
+	Removing .text.RTC_TRGSRC0_SWFTRG(Obj/FWlib_apt32f102_rtc.o), (16 bytes).
+	Removing .text.RTC_TRGSRC1_SWFTRG(Obj/FWlib_apt32f102_rtc.o), (16 bytes).
+	Removing .text.RTC_Int_Enable(Obj/FWlib_apt32f102_rtc.o), (20 bytes).
+	Removing .text.RTC_Int_Disable(Obj/FWlib_apt32f102_rtc.o), (16 bytes).
+	Removing .text.RTC_Vector_Int_Enable(Obj/FWlib_apt32f102_rtc.o), (16 bytes).
+	Removing .text.RTC_Vector_Int_Disable(Obj/FWlib_apt32f102_rtc.o), (16 bytes).
+	Removing .text.RTC_WakeUp_Enable(Obj/FWlib_apt32f102_rtc.o), (16 bytes).
+	Removing .text.RTC_WakeUp_Disable(Obj/FWlib_apt32f102_rtc.o), (16 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_rtc.o), (8761 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_rtc.o), (496 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_rtc.o), (486 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_rtc.o), (192 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_rtc.o), (176 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_rtc.o), (16119 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_rtc.o), (628 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_rtc.o), (4831 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_rtc.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_rtc.o), (420 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_rtc.o), (31 bytes).
+	Removing COMMON(Obj/FWlib_apt32f102_rtc.o), (15 bytes).
+	Removing .text(Obj/FWlib_apt32f102_sio.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_sio.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_sio.o), (0 bytes).
+	Removing .text.SIO_DeInit(Obj/FWlib_apt32f102_sio.o), (32 bytes).
+	Removing .text.SIO_IO_Init(Obj/FWlib_apt32f102_sio.o), (96 bytes).
+	Removing .text.SIO_TX_Init(Obj/FWlib_apt32f102_sio.o), (16 bytes).
+	Removing .text.SIO_TX_Configure(Obj/FWlib_apt32f102_sio.o), (80 bytes).
+	Removing .text.SIO_TXBUF_Set(Obj/FWlib_apt32f102_sio.o), (156 bytes).
+	Removing .text.SIO_RX_Init(Obj/FWlib_apt32f102_sio.o), (20 bytes).
+	Removing .text.SIO_RX_Configure0(Obj/FWlib_apt32f102_sio.o), (96 bytes).
+	Removing .text.SIO_RX_Configure1(Obj/FWlib_apt32f102_sio.o), (28 bytes).
+	Removing .text.SIO_ConfigInterrupt_CMD(Obj/FWlib_apt32f102_sio.o), (28 bytes).
+	Removing .text.SIO_INT_ENABLE(Obj/FWlib_apt32f102_sio.o), (16 bytes).
+	Removing .text.SIO_INT_DISABLE(Obj/FWlib_apt32f102_sio.o), (16 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_sio.o), (8624 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_sio.o), (407 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_sio.o), (1996 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_sio.o), (112 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_sio.o), (96 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_sio.o), (15711 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_sio.o), (432 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_sio.o), (4112 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_sio.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_sio.o), (260 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_sio.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_spi.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_spi.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_spi.o), (0 bytes).
+	Removing .text.SPI_DeInit(Obj/FWlib_apt32f102_spi.o), (32 bytes).
+	Removing .text.SPI_NSS_IO_Init(Obj/FWlib_apt32f102_spi.o), (52 bytes).
+	Removing .text.SPI_Master_Init(Obj/FWlib_apt32f102_spi.o), (176 bytes).
+	Removing .text.SPI_Slave_Init(Obj/FWlib_apt32f102_spi.o), (160 bytes).
+	Removing .text.SPI_WRITE_BYTE(Obj/FWlib_apt32f102_spi.o), (32 bytes).
+	Removing .text.SPI_READ_BYTE(Obj/FWlib_apt32f102_spi.o), (100 bytes).
+	Removing .text.SPI_ConfigInterrupt_CMD(Obj/FWlib_apt32f102_spi.o), (28 bytes).
+	Removing .text.SPI_Int_Enable(Obj/FWlib_apt32f102_spi.o), (16 bytes).
+	Removing .text.SPI_Int_Disable(Obj/FWlib_apt32f102_spi.o), (16 bytes).
+	Removing .text.SPI_Wakeup_Enable(Obj/FWlib_apt32f102_spi.o), (16 bytes).
+	Removing .text.SPI_Wakeup_Disable(Obj/FWlib_apt32f102_spi.o), (16 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_spi.o), (7809 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_spi.o), (404 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_spi.o), (665 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_spi.o), (112 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_spi.o), (96 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_spi.o), (17961 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_spi.o), (448 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_spi.o), (3515 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_spi.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_spi.o), (240 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_spi.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_syscon.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_syscon.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_syscon.o), (0 bytes).
+	Removing .text.SYSCON_General_CMD.part.0(Obj/FWlib_apt32f102_syscon.o), (120 bytes).
+	Removing .text.SYSCON_RST_VALUE(Obj/FWlib_apt32f102_syscon.o), (80 bytes).
+	Removing .text.EMOSC_OSTR_Config(Obj/FWlib_apt32f102_syscon.o), (28 bytes).
+	Removing .text.SYSCON_General_CMD(Obj/FWlib_apt32f102_syscon.o), (48 bytes).
+	Removing .text.SystemCLK_HCLKDIV_PCLKDIV_Config(Obj/FWlib_apt32f102_syscon.o), (124 bytes).
+	Removing .text.SYSCON_IMOSC_SELECTE(Obj/FWlib_apt32f102_syscon.o), (40 bytes).
+	Removing .text.SYSCON_HFOSC_SELECTE(Obj/FWlib_apt32f102_syscon.o), (40 bytes).
+	Removing .text.SYSCON_WDT_CMD(Obj/FWlib_apt32f102_syscon.o), (60 bytes).
+	Removing .text.SYSCON_IWDCNT_Reload(Obj/FWlib_apt32f102_syscon.o), (20 bytes).
+	Removing .text.SYSCON_IWDCNT_Config(Obj/FWlib_apt32f102_syscon.o), (24 bytes).
+	Removing .text.SYSCON_LVD_Config(Obj/FWlib_apt32f102_syscon.o), (32 bytes).
+	Removing .text.LVD_Int_Enable(Obj/FWlib_apt32f102_syscon.o), (28 bytes).
+	Removing .text.LVD_Int_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.IWDT_Int_Enable(Obj/FWlib_apt32f102_syscon.o), (28 bytes).
+	Removing .text.IWDT_Int_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.Read_Reset_Status(Obj/FWlib_apt32f102_syscon.o), (24 bytes).
+	Removing .text.EXTI_trigger_CMD(Obj/FWlib_apt32f102_syscon.o), (64 bytes).
+	Removing .text.EXTI_interrupt_CMD(Obj/FWlib_apt32f102_syscon.o), (52 bytes).
+	Removing .text.GPIO_EXTI_interrupt(Obj/FWlib_apt32f102_syscon.o), (4 bytes).
+	Removing .text.PCLK_goto_idle_mode(Obj/FWlib_apt32f102_syscon.o), (6 bytes).
+	Removing .text.PCLK_goto_deepsleep_mode(Obj/FWlib_apt32f102_syscon.o), (20 bytes).
+	Removing .text.EXI0_Int_Enable(Obj/FWlib_apt32f102_syscon.o), (12 bytes).
+	Removing .text.EXI0_Int_Disable(Obj/FWlib_apt32f102_syscon.o), (12 bytes).
+	Removing .text.EXI1_Int_Enable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI1_Int_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI2_Int_Enable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI2_Int_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI3_Int_Enable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI3_Int_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI4_Int_Enable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI4_Int_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI0_WakeUp_Enable(Obj/FWlib_apt32f102_syscon.o), (12 bytes).
+	Removing .text.EXI0_WakeUp_Disable(Obj/FWlib_apt32f102_syscon.o), (12 bytes).
+	Removing .text.EXI1_WakeUp_Enable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI1_WakeUp_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI2_WakeUp_Enable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI2_WakeUp_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI3_WakeUp_Enable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI3_WakeUp_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI4_WakeUp_Enable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.EXI4_WakeUp_Disable(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.SYSCON_Int_Enable(Obj/FWlib_apt32f102_syscon.o), (12 bytes).
+	Removing .text.SYSCON_Int_Disable(Obj/FWlib_apt32f102_syscon.o), (12 bytes).
+	Removing .text.SYSCON_WakeUp_Enable(Obj/FWlib_apt32f102_syscon.o), (12 bytes).
+	Removing .text.SYSCON_CLO_CONFIG(Obj/FWlib_apt32f102_syscon.o), (52 bytes).
+	Removing .text.SYSCON_WakeUp_Disable(Obj/FWlib_apt32f102_syscon.o), (12 bytes).
+	Removing .text.SYSCON_Read_CINF0(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.SYSCON_Read_CINF1(Obj/FWlib_apt32f102_syscon.o), (16 bytes).
+	Removing .text.SYSCON_Software_Reset(Obj/FWlib_apt32f102_syscon.o), (20 bytes).
+	Removing .text.SYSCON_INT_Priority(Obj/FWlib_apt32f102_syscon.o), (36 bytes).
+	Removing .debug_info(Obj/FWlib_apt32f102_syscon.o), (9820 bytes).
+	Removing .debug_abbrev(Obj/FWlib_apt32f102_syscon.o), (644 bytes).
+	Removing .debug_loc(Obj/FWlib_apt32f102_syscon.o), (606 bytes).
+	Removing .debug_aranges(Obj/FWlib_apt32f102_syscon.o), (424 bytes).
+	Removing .debug_ranges(Obj/FWlib_apt32f102_syscon.o), (408 bytes).
+	Removing .debug_macinfo(Obj/FWlib_apt32f102_syscon.o), (18826 bytes).
+	Removing .debug_line(Obj/FWlib_apt32f102_syscon.o), (1215 bytes).
+	Removing .debug_str(Obj/FWlib_apt32f102_syscon.o), (5808 bytes).
+	Removing .comment(Obj/FWlib_apt32f102_syscon.o), (67 bytes).
+	Removing .debug_frame(Obj/FWlib_apt32f102_syscon.o), (868 bytes).
+	Removing .csky.attributes(Obj/FWlib_apt32f102_syscon.o), (31 bytes).
+	Removing .text(Obj/FWlib_apt32f102_uart.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_uart.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_uart.o), (2 bytes).
+	Removing .text.UART0_DeInit(Obj/FWlib_apt32f102_uart.o), (24 bytes).
+	Removing .text.UART0_Int_Enable(Obj/FWlib_apt32f102_uart.o), (28 bytes).
+	Removing .text.UART0_Int_Disable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UART1_Int_Disable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UART2_Int_Disable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UART0_WakeUp_Enable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UART0_WakeUp_Disable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UART1_WakeUp_Enable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UART1_WakeUp_Disable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UART2_WakeUp_Enable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UART2_WakeUp_Disable(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UARTInit(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UARTInitRxIntEn(Obj/FWlib_apt32f102_uart.o), (16 bytes).
+	Removing .text.UARTClose(Obj/FWlib_apt32f102_uart.o), (6 bytes).
+	Removing .text.UARTTransmit(Obj/FWlib_apt32f102_uart.o), (30 bytes).
+	Removing .text.UARTRxByte(Obj/FWlib_apt32f102_uart.o), (22 bytes).
+	Removing .text.UART_ReturnRxByte(Obj/FWlib_apt32f102_uart.o), (24 bytes).
+	Removing .text.UARTReceive(Obj/FWlib_apt32f102_uart.o), (56 bytes).
+	Removing .text(Obj/FWlib_apt32f102_wwdt.o), (0 bytes).
+	Removing .data(Obj/FWlib_apt32f102_wwdt.o), (0 bytes).
+	Removing .bss(Obj/FWlib_apt32f102_wwdt.o), (0 bytes).
+	Removing .text.WWDT_DeInit(Obj/FWlib_apt32f102_wwdt.o), (28 bytes).
+	Removing .text.WWDT_CONFIG(Obj/FWlib_apt32f102_wwdt.o), (24 bytes).
+	Removing .text.WWDT_CMD(Obj/FWlib_apt32f102_wwdt.o), (24 bytes).
+	Removing .text.WWDT_Int_Config(Obj/FWlib_apt32f102_wwdt.o), (52 bytes).
+	Removing .text(Obj/source_main.o), (0 bytes).
+	Removing .data(Obj/source_main.o), (0 bytes).
+	Removing .bss(Obj/source_main.o), (0 bytes).
+	Removing .text.jump_app(Obj/source_main.o), (20 bytes).
+	Removing .text.enable_IWDT(Obj/source_main.o), (40 bytes).
+	Removing .text.clock_init(Obj/source_main.o), (60 bytes).
+	Removing .text(Obj/source_apt32f102_initial.o), (0 bytes).
+	Removing .data(Obj/source_apt32f102_initial.o), (0 bytes).
+	Removing .bss(Obj/source_apt32f102_initial.o), (0 bytes).
+	Removing .text.delay_nms(Obj/source_apt32f102_initial.o), (44 bytes).
+	Removing .text.delay_nus(Obj/source_apt32f102_initial.o), (34 bytes).
+	Removing .text.GPIO_CONFIG(Obj/source_apt32f102_initial.o), (2 bytes).
+	Removing .text.CORET_CONFIG(Obj/source_apt32f102_initial.o), (56 bytes).
+	Removing .text.EPT0_CONFIG(Obj/source_apt32f102_initial.o), (352 bytes).
+	Removing .text.GPT0_CONFIG(Obj/source_apt32f102_initial.o), (168 bytes).
+	Removing .text.LPT_CONFIG(Obj/source_apt32f102_initial.o), (110 bytes).
+	Removing .text.COUNTA_CONFIG(Obj/source_apt32f102_initial.o), (64 bytes).
+	Removing .text.RTC_CONFIG(Obj/source_apt32f102_initial.o), (184 bytes).
+	Removing .text.ET_CONFIG(Obj/source_apt32f102_initial.o), (32 bytes).
+	Removing .text.SIO_CONFIG(Obj/source_apt32f102_initial.o), (100 bytes).
+	Removing .text.SPI_MASTER_CONFIG(Obj/source_apt32f102_initial.o), (56 bytes).
+	Removing .text.SPI_SLAVE_CONFIG(Obj/source_apt32f102_initial.o), (50 bytes).
+	Removing .text.I2C_MASTER_CONFIG(Obj/source_apt32f102_initial.o), (48 bytes).
+	Removing .text.I2C_SLAVE_CONFIG(Obj/source_apt32f102_initial.o), (104 bytes).
+	Removing .text.UART0_CONFIG(Obj/source_apt32f102_initial.o), (36 bytes).
+	Removing .text.ADC12_CONFIG(Obj/source_apt32f102_initial.o), (78 bytes).
+	Removing .text.TK_CONFIG(Obj/source_apt32f102_initial.o), (12 bytes).
+	Removing .text.SYSCON_CONFIG(Obj/source_apt32f102_initial.o), (96 bytes).
+	Removing .text.APT32F102_init(Obj/source_apt32f102_initial.o), (40 bytes).
+	Removing .text(Obj/source_apt32f102_interrupt.o), (0 bytes).
+	Removing .data(Obj/source_apt32f102_interrupt.o), (0 bytes).
+	Removing .text.SystemDesPtr(Obj/source_apt32f102_interrupt.o), (2 bytes).
+	Removing .text(Obj/source_delay.o), (0 bytes).
+	Removing .data(Obj/source_delay.o), (0 bytes).
+	Removing .bss(Obj/source_delay.o), (8 bytes).
+	Removing .text.delayus_Bycode(Obj/source_delay.o), (56 bytes).
+	Removing .text.delay300ns_Bycode(Obj/source_delay.o), (22 bytes).
+	Removing .text.delayms_Bycode(Obj/source_delay.o), (30 bytes).
+	Removing .text.delay_ms(Obj/source_delay.o), (28 bytes).
+	Removing .text.delay_us(Obj/source_delay.o), (20 bytes).
+	Removing .debug_info(Obj/source_delay.o), (356 bytes).
+	Removing .debug_abbrev(Obj/source_delay.o), (201 bytes).
+	Removing .debug_loc(Obj/source_delay.o), (38 bytes).
+	Removing .debug_aranges(Obj/source_delay.o), (64 bytes).
+	Removing .debug_ranges(Obj/source_delay.o), (48 bytes).
+	Removing .debug_macinfo(Obj/source_delay.o), (9522 bytes).
+	Removing .debug_line(Obj/source_delay.o), (184 bytes).
+	Removing .debug_str(Obj/source_delay.o), (242 bytes).
+	Removing .comment(Obj/source_delay.o), (67 bytes).
+	Removing .debug_frame(Obj/source_delay.o), (144 bytes).
+	Removing .csky.attributes(Obj/source_delay.o), (31 bytes).
+	Removing .text(Obj/source_iostring.o), (0 bytes).
+	Removing .bss(Obj/source_iostring.o), (0 bytes).
+	Removing .text.__getchar__(Obj/source_iostring.o), (56 bytes).
+	Removing .text.get_string(Obj/source_iostring.o), (104 bytes).
+	Removing COMMON(Obj/source_iostring.o), (2 bytes).
+	Removing .text(Obj/source_define.o), (0 bytes).
+	Removing .data(Obj/source_define.o), (0 bytes).
+	Removing .text(Obj/source_Ht1621.o), (0 bytes).
+	Removing .data(Obj/source_Ht1621.o), (0 bytes).
+	Removing .bss(Obj/source_Ht1621.o), (0 bytes).
+	Removing .text(Obj/source_key.o), (0 bytes).
+	Removing .data(Obj/source_key.o), (0 bytes).
+	Removing .text.PwrOff(Obj/source_key.o), (40 bytes).
+	Removing .text(Obj/source_disp.o), (0 bytes).
+	Removing .bss(Obj/source_disp.o), (0 bytes).
+	Removing .text(Obj/source_uart.o), (0 bytes).
+	Removing .bss(Obj/source_uart.o), (0 bytes).
+	Removing .text.Send_Data_TimerOn(Obj/source_uart.o), (80 bytes).
+	Removing .text.Send_Data_TimerOff(Obj/source_uart.o), (56 bytes).
+	Removing .text.Send_Data_TimerOn_Ack(Obj/source_uart.o), (148 bytes).
+	Removing .text.Send_Data_TimerOn_1Min(Obj/source_uart.o), (100 bytes).
+	Removing .text(Obj/__rt_entry.o), (240 bytes).
+	Removing .data(Obj/__rt_entry.o), (0 bytes).
+	Removing .bss(Obj/__rt_entry.o), (0 bytes).
+	Removing .debug_line(Obj/__rt_entry.o), (131 bytes).
+	Removing .debug_info(Obj/__rt_entry.o), (114 bytes).
+	Removing .debug_abbrev(Obj/__rt_entry.o), (20 bytes).
+	Removing .debug_aranges(Obj/__rt_entry.o), (32 bytes).
+	Removing .csky.attributes(Obj/__rt_entry.o), (31 bytes).
+	Removing .text(_csky_case_uqi.o), (20 bytes).
+	Removing .data(_csky_case_uqi.o), (0 bytes).
+	Removing .bss(_csky_case_uqi.o), (0 bytes).
+	Removing .csky.attributes(_csky_case_uqi.o), (32 bytes).
+	Removing .data(_csky_case_uhi.o), (0 bytes).
+	Removing .bss(_csky_case_uhi.o), (0 bytes).
+	Removing .data(memset_fast.o), (0 bytes).
+	Removing .bss(memset_fast.o), (0 bytes).
+	Removing .data(memcpy_fast.o), (0 bytes).
+	Removing .bss(memcpy_fast.o), (0 bytes).
+
+628 unused seciton(s) (total 477823 bytes) removed from the image.
+
+======================================================================
+
+Image Symbol Table 
+
+	Local Symbols
+
+	Symbol Name                        Value        Type   Size  Section
+	Obj/FWlib_apt32f101_ifc.o          0x00000000     df        0  *ABS*
+	Obj/FWlib_apt32f102_bt.o           0x00000000     df        0  *ABS*
+	Obj/FWlib_apt32f102_gpio.o         0x00000000     df        0  *ABS*
+	Obj/FWlib_apt32f102_i2c.o          0x00000000     df        0  *ABS*
+	Obj/FWlib_apt32f102_uart.o         0x00000000     df        0  *ABS*
+	Obj/FWlib_apt32f102_wwdt.o         0x00000000     df        0  *ABS*
+	Obj/arch_crt0.o                    0x00000000     df        0  *ABS*
+	Obj/arch_mem_init.o                0x00000000     df        0  *ABS*
+	Obj/drivers_apt32f102.o            0x00000000     df        0  *ABS*
+	Obj/source_Ht1621.o                0x00000000     df        0  *ABS*
+	Obj/source_apt32f102_initial.o     0x00000000     df        0  *ABS*
+	Obj/source_apt32f102_interrupt.o   0x00000000     df        0  *ABS*
+	Obj/source_define.o                0x00000000     df        0  *ABS*
+	Obj/source_disp.o                  0x00000000     df        0  *ABS*
+	Obj/source_iostring.o              0x00000000     df        0  *ABS*
+	Obj/source_key.o                   0x00000000     df        0  *ABS*
+	Obj/source_main.o                  0x00000000     df        0  *ABS*
+	Obj/source_uart.o                  0x00000000     df        0  *ABS*
+	_csky_case_uhi.o                   0x00000000     df        0  *ABS*
+	memcpy_fast.o                      0x00000000     df        0  *ABS*
+	memset_fast.o                      0x00000000     df        0  *ABS*
+	$d                                 0x00001000               0  .text
+	$t                                 0x0000110c               0  .text
+	INIT_KERLE_STACK                   0x0000113e               0  .text
+	__to_main                          0x00001146               0  .text
+	__dummy                            0x00001182               0  .text
+	$d                                 0x00001186               0  .text
+	$d                                 0x000011b4               0  .text
+	$t                                 0x000011b4               0  .text
+	$d                                 0x000011d0               0  .text
+	$t                                 0x000011d0               0  .text
+	$d                                 0x00001258               0  .text
+	$t                                 0x00001258               0  .text
+	$d                                 0x000012bc               0  .text.__main
+	$t                                 0x000012bc               0  .text.__main
+	$d                                 0x000012e0               0  .text.__main
+	$d                                 0x000012f4               0  .text.__divsi3
+	$t                                 0x000012f4               0  .text.__divsi3
+	$d                                 0x00001314               0  .text.__divsi3
+	$d                                 0x00001318               0  .text.__udivsi3
+	$t                                 0x00001318               0  .text.__udivsi3
+	$d                                 0x00001338               0  .text.__udivsi3
+	$d                                 0x0000133c               0  .text.__modsi3
+	$t                                 0x0000133c               0  .text.__modsi3
+	$d                                 0x0000135c               0  .text.__modsi3
+	$d                                 0x00001360               0  .text.__umodsi3
+	$t                                 0x00001360               0  .text.__umodsi3
+	$d                                 0x00001380               0  .text.__umodsi3
+	$d                                 0x00001384               0  .text.ReadDataArry
+	$t                                 0x00001384               0  .text.ReadDataArry
+	$d                                 0x000013b4               0  .text.ProgramData_Word
+	$t                                 0x000013b4               0  .text.ProgramData_Word
+	$d                                 0x000014b0               0  .text.ProgramData_Word
+	$d                                 0x000014b8               0  .text.BT_DeInit
+	$t                                 0x000014b8               0  .text.BT_DeInit
+	$d                                 0x000014d4               0  .text.BT_IO_Init
+	$t                                 0x000014d4               0  .text.BT_IO_Init
+	$d                                 0x0000160c               0  .text.BT_IO_Init
+	$d                                 0x00001614               0  .text.BT_Start
+	$t                                 0x00001614               0  .text.BT_Start
+	$d                                 0x0000161c               0  .text.BT_Configure
+	$t                                 0x0000161c               0  .text.BT_Configure
+	$d                                 0x00001634               0  .text.BT_ControlSet_Configure
+	$t                                 0x00001634               0  .text.BT_ControlSet_Configure
+	$d                                 0x00001660               0  .text.BT_Period_CMP_Write
+	$t                                 0x00001660               0  .text.BT_Period_CMP_Write
+	$d                                 0x00001666               0  .text.BT_ConfigInterrupt_CMD
+	$t                                 0x00001666               0  .text.BT_ConfigInterrupt_CMD
+	$d                                 0x00001678               0  .text.BT0_INT_ENABLE
+	$t                                 0x00001678               0  .text.BT0_INT_ENABLE
+	$d                                 0x00001684               0  .text.BT0_INT_ENABLE
+	$d                                 0x00001688               0  .text.GPIO_Init
+	$t                                 0x00001688               0  .text.GPIO_Init
+	$d                                 0x000016e0               0  .text.GPIO_Init
+	$d                                 0x000016f0               0  .text.GPIO_PullHigh_Init
+	$t                                 0x000016f0               0  .text.GPIO_PullHigh_Init
+	$d                                 0x00001704               0  .text.GPIO_Write_High
+	$t                                 0x00001704               0  .text.GPIO_Write_High
+	$d                                 0x0000170c               0  .text.GPIO_Write_Low
+	$t                                 0x0000170c               0  .text.GPIO_Write_Low
+	$d                                 0x00001714               0  .text.GPIO_Reverse
+	$t                                 0x00001714               0  .text.GPIO_Reverse
+	$d                                 0x0000172a               0  .text.GPIO_Read_Status
+	$t                                 0x0000172a               0  .text.GPIO_Read_Status
+	$d                                 0x0000173a               0  .text.GPIO_Read_Output
+	$t                                 0x0000173a               0  .text.GPIO_Read_Output
+	$d                                 0x0000174c               0  .text.I2C_ConfigInterrupt_CMD
+	$t                                 0x0000174c               0  .text.I2C_ConfigInterrupt_CMD
+	$d                                 0x00001768               0  .text.I2C_ConfigInterrupt_CMD
+	$d                                 0x0000176c               0  .text.I2C_Enable
+	$t                                 0x0000176c               0  .text.I2C_Enable
+	$d                                 0x00001784               0  .text.I2C_Enable
+	$d                                 0x00001788               0  .text.I2C_Disable
+	$t                                 0x00001788               0  .text.I2C_Disable
+	$d                                 0x000017a0               0  .text.I2C_Disable
+	$d                                 0x000017a4               0  .text.I2C_Slave_Receive
+	$t                                 0x000017a4               0  .text.I2C_Slave_Receive
+	$d                                 0x000018b4               0  .text.I2C_Slave_Receive
+	$d                                 0x000018d4               0  .text.UART1_DeInit
+	$t                                 0x000018d4               0  .text.UART1_DeInit
+	$d                                 0x000018e8               0  .text.UART1_DeInit
+	$d                                 0x000018ec               0  .text.UART2_DeInit
+	$t                                 0x000018ec               0  .text.UART2_DeInit
+	$d                                 0x00001900               0  .text.UART2_DeInit
+	$d                                 0x00001904               0  .text.UART1_Int_Enable
+	$t                                 0x00001904               0  .text.UART1_Int_Enable
+	$d                                 0x00001918               0  .text.UART1_Int_Enable
+	$d                                 0x00001920               0  .text.UART2_Int_Enable
+	$t                                 0x00001920               0  .text.UART2_Int_Enable
+	$d                                 0x00001934               0  .text.UART2_Int_Enable
+	$d                                 0x0000193c               0  .text.UART_IO_Init
+	$t                                 0x0000193c               0  .text.UART_IO_Init
+	$d                                 0x00001a1c               0  .text.UART_IO_Init
+	$d                                 0x00001a24               0  .text.UARTInitRxTxIntEn
+	$t                                 0x00001a24               0  .text.UARTInitRxTxIntEn
+	$d                                 0x00001a34               0  .text.UARTTxByte
+	$t                                 0x00001a34               0  .text.UARTTxByte
+	$d                                 0x00001a44               0  .text.WWDT_CNT_Load
+	$t                                 0x00001a44               0  .text.WWDT_CNT_Load
+	$d                                 0x00001a50               0  .text.WWDT_CNT_Load
+	$d                                 0x00001a54               0  .text.IoInit
+	$t                                 0x00001a54               0  .text.IoInit
+	$d                                 0x00001ad0               0  .text.IoInit
+	$d                                 0x00001ad8               0  .text.rst_mcu
+	$t                                 0x00001ad8               0  .text.rst_mcu
+	$d                                 0x00001aec               0  .text.rst_mcu
+	$d                                 0x00001af4               0  .text.feed_IWDT
+	$t                                 0x00001af4               0  .text.feed_IWDT
+	$d                                 0x00001b04               0  .text.feed_IWDT
+	$d                                 0x00001b08               0  .text.Wait
+	$t                                 0x00001b08               0  .text.Wait
+	$d                                 0x00001b20               0  .text.Wait
+	$d                                 0x00001b24               0  .text.Ram_Init
+	$t                                 0x00001b24               0  .text.Ram_Init
+	$d                                 0x00001b60               0  .text.Ram_Init
+	$d                                 0x00001b70               0  .text.startup.main
+	$t                                 0x00001b70               0  .text.startup.main
+	$d                                 0x00001cf0               0  .text.startup.main
+	$d                                 0x00001d24               0  .text.BT_CONFIG
+	$t                                 0x00001d24               0  .text.BT_CONFIG
+	$d                                 0x00001d80               0  .text.BT_CONFIG
+	$d                                 0x00001d84               0  .text.UART1_CONFIG
+	$t                                 0x00001d84               0  .text.UART1_CONFIG
+	$d                                 0x00001da4               0  .text.UART1_CONFIG
+	$d                                 0x00001da8               0  .text.UART2_CONFIG
+	$t                                 0x00001da8               0  .text.UART2_CONFIG
+	$d                                 0x00001dc8               0  .text.UART2_CONFIG
+	$d                                 0x00001dcc               0  .text.IFC_CONFIG
+	$t                                 0x00001dcc               0  .text.IFC_CONFIG
+	$d                                 0x00001ddc               0  .text.IFC_CONFIG
+	$d                                 0x00001de0               0  .text.CORETHandler
+	$t                                 0x00001de0               0  .text.CORETHandler
+	$d                                 0x00001df4               0  .text.CORETHandler
+	$d                                 0x00001df8               0  .text.SYSCONIntHandler
+	$t                                 0x00001df8               0  .text.SYSCONIntHandler
+	$d                                 0x00001ed8               0  .text.SYSCONIntHandler
+	$d                                 0x00001edc               0  .text.IFCIntHandler
+	$t                                 0x00001edc               0  .text.IFCIntHandler
+	$d                                 0x00001fb0               0  .text.IFCIntHandler
+	$d                                 0x00001fc8               0  .text.EPT0IntHandler
+	$t                                 0x00001fc8               0  .text.EPT0IntHandler
+	$d                                 0x000020d4               0  .text.EPT0IntHandler
+	$d                                 0x000020e0               0  .text.WWDTHandler
+	$t                                 0x000020e0               0  .text.WWDTHandler
+	$d                                 0x00002124               0  .text.WWDTHandler
+	$d                                 0x0000212c               0  .text.GPT0IntHandler
+	$t                                 0x0000212c               0  .text.GPT0IntHandler
+	$d                                 0x000021dc               0  .text.GPT0IntHandler
+	$d                                 0x000021e0               0  .text.RTCIntHandler
+	$t                                 0x000021e0               0  .text.RTCIntHandler
+	$d                                 0x00002248               0  .text.RTCIntHandler
+	$d                                 0x00002250               0  .text.UART0IntHandler
+	$t                                 0x00002250               0  .text.UART0IntHandler
+	$d                                 0x00002288               0  .text.UART0IntHandler
+	$d                                 0x0000228c               0  .text.UART1IntHandler
+	$t                                 0x0000228c               0  .text.UART1IntHandler
+	$d                                 0x000022b0               0  .text.UART1IntHandler
+	$d                                 0x000022b4               0  .text.UART2IntHandler
+	$t                                 0x000022b4               0  .text.UART2IntHandler
+	$d                                 0x0000232c               0  .text.UART2IntHandler
+	$d                                 0x00002344               0  .text.I2CIntHandler
+	$t                                 0x00002344               0  .text.I2CIntHandler
+	$d                                 0x00002358               0  .text.SPI0IntHandler
+	$t                                 0x00002358               0  .text.SPI0IntHandler
+	$d                                 0x00002390               0  .text.SPI0IntHandler
+	$d                                 0x00002394               0  .text.SIO0IntHandler
+	$t                                 0x00002394               0  .text.SIO0IntHandler
+	$d                                 0x0000240c               0  .text.SIO0IntHandler
+	$d                                 0x00002418               0  .text.EXI0IntHandler
+	$t                                 0x00002418               0  .text.EXI0IntHandler
+	$d                                 0x00002434               0  .text.EXI0IntHandler
+	$d                                 0x00002438               0  .text.EXI1IntHandler
+	$t                                 0x00002438               0  .text.EXI1IntHandler
+	$d                                 0x00002454               0  .text.EXI1IntHandler
+	$d                                 0x00002458               0  .text.EXI2to3IntHandler
+	$t                                 0x00002458               0  .text.EXI2to3IntHandler
+	$d                                 0x00002480               0  .text.EXI2to3IntHandler
+	$d                                 0x00002484               0  .text.EXI4to8IntHandler
+	$t                                 0x00002484               0  .text.EXI4to8IntHandler
+	$d                                 0x000024d0               0  .text.EXI4to8IntHandler
+	$d                                 0x000024d4               0  .text.EXI9to13IntHandler
+	$t                                 0x000024d4               0  .text.EXI9to13IntHandler
+	$d                                 0x00002524               0  .text.EXI9to13IntHandler
+	$d                                 0x00002528               0  .text.LPTIntHandler
+	$t                                 0x00002528               0  .text.LPTIntHandler
+	$d                                 0x00002560               0  .text.LPTIntHandler
+	$d                                 0x00002568               0  .text.BT0IntHandler
+	$t                                 0x00002568               0  .text.BT0IntHandler
+	$d                                 0x000026b8               0  .text.BT0IntHandler
+	$d                                 0x000026e8               0  .text.BT1IntHandler
+	$t                                 0x000026e8               0  .text.BT1IntHandler
+	$d                                 0x00002728               0  .text.BT1IntHandler
+	$d                                 0x00002730               0  .text.PriviledgeVioHandler
+	$t                                 0x00002730               0  .text.PriviledgeVioHandler
+	$d                                 0x00002732               0  .text.PendTrapHandler
+	$t                                 0x00002732               0  .text.PendTrapHandler
+	$d                                 0x0000273a               0  .text.Trap3Handler
+	$t                                 0x0000273a               0  .text.Trap3Handler
+	$d                                 0x00002742               0  .text.Trap2Handler
+	$t                                 0x00002742               0  .text.Trap2Handler
+	$d                                 0x0000274a               0  .text.Trap1Handler
+	$t                                 0x0000274a               0  .text.Trap1Handler
+	$d                                 0x00002752               0  .text.Trap0Handler
+	$t                                 0x00002752               0  .text.Trap0Handler
+	$d                                 0x0000275a               0  .text.UnrecExecpHandler
+	$t                                 0x0000275a               0  .text.UnrecExecpHandler
+	$d                                 0x00002762               0  .text.BreakPointHandler
+	$t                                 0x00002762               0  .text.BreakPointHandler
+	$d                                 0x0000276a               0  .text.AccessErrHandler
+	$t                                 0x0000276a               0  .text.AccessErrHandler
+	$d                                 0x00002772               0  .text.IllegalInstrHandler
+	$t                                 0x00002772               0  .text.IllegalInstrHandler
+	$d                                 0x0000277a               0  .text.MisalignedHandler
+	$t                                 0x0000277a               0  .text.MisalignedHandler
+	$d                                 0x00002782               0  .text.TKEYIntHandler
+	$t                                 0x00002782               0  .text.TKEYIntHandler
+	$d                                 0x0000278a               0  .text.CNTAIntHandler
+	$t                                 0x0000278a               0  .text.CNTAIntHandler
+	$d                                 0x00002792               0  .text.ADCIntHandler
+	$t                                 0x00002792               0  .text.ADCIntHandler
+	$d                                 0x0000279c               0  .text.__putchar__
+	$t                                 0x0000279c               0  .text.__putchar__
+	$d                                 0x000027c4               0  .text.__putchar__
+	$d                                 0x000027d4               0  .text.myitoa
+	$t                                 0x000027d4               0  .text.myitoa
+	$d                                 0x00002860               0  .text.my_printf
+	$t                                 0x00002860               0  .text.my_printf
+	$d                                 0x00002920               0  .text.FlagGetBit
+	$t                                 0x00002920               0  .text.FlagGetBit
+	$d                                 0x00002938               0  .text.FlagGetBit
+	$d                                 0x00002940               0  .text.FlagSetBit
+	$t                                 0x00002940               0  .text.FlagSetBit
+	$d                                 0x00002964               0  .text.FlagSetBit
+	$d                                 0x0000296c               0  .text.FlagClearBit
+	$t                                 0x0000296c               0  .text.FlagClearBit
+	$d                                 0x00002988               0  .text.FlagClearBit
+	$d                                 0x00002990               0  .text.FlagReverseBit
+	$t                                 0x00002990               0  .text.FlagReverseBit
+	$d                                 0x000029b4               0  .text.FlagReverseBit
+	$d                                 0x000029bc               0  .text.HtBitsWr
+	$t                                 0x000029bc               0  .text.HtBitsWr
+	$d                                 0x00002a3c               0  .text.HtBitsWr
+	$d                                 0x00002a44               0  .text.ht_wr_4bit
+	$t                                 0x00002a44               0  .text.ht_wr_4bit
+	$d                                 0x00002a60               0  .text.LcdInit
+	$t                                 0x00002a60               0  .text.LcdInit
+	$d                                 0x00002a88               0  .text.LcdInit
+	$d                                 0x00002a94               0  .text.SetBeep
+	$t                                 0x00002a94               0  .text.SetBeep
+	$d                                 0x00002aa8               0  .text.SetBeep
+	$d                                 0x00002aac               0  .text.Bled_On
+	$t                                 0x00002aac               0  .text.Bled_On
+	$d                                 0x00002ac0               0  .text.Bled_On
+	$d                                 0x00002ac8               0  .text.Key_Power_Switch
+	$t                                 0x00002ac8               0  .text.Key_Power_Switch
+	$d                                 0x00002b08               0  .text.Key_Power_Switch
+	$d                                 0x00002b14               0  .text.Key_Add
+	$t                                 0x00002b14               0  .text.Key_Add
+	$d                                 0x00002b78               0  .text.Key_Add
+	$d                                 0x00002b88               0  .text.Key_Dec
+	$t                                 0x00002b88               0  .text.Key_Dec
+	$d                                 0x00002be4               0  .text.Key_Dec
+	$d                                 0x00002bf4               0  .text.Key_WifiRst
+	$t                                 0x00002bf4               0  .text.Key_WifiRst
+	$d                                 0x00002c3c               0  .text.Key_WifiRst
+	$d                                 0x00002c40               0  .text.ScanKey
+	$t                                 0x00002c40               0  .text.ScanKey
+	$d                                 0x00002d38               0  .text.ScanKey
+	$d                                 0x00002d4c               0  .text.GetTmpDisp
+	$t                                 0x00002d4c               0  .text.GetTmpDisp
+	$d                                 0x00002d80               0  .text.GetTmpDisp
+	$d                                 0x00002d8c               0  .text.SetClkDisp
+	$t                                 0x00002d8c               0  .text.SetClkDisp
+	$d                                 0x00002e04               0  .text.SetClkDisp
+	$d                                 0x00002e14               0  .text.GetTmrDisp
+	$t                                 0x00002e14               0  .text.GetTmrDisp
+	$d                                 0x00002e80               0  .text.GetTmrDisp
+	$d                                 0x00002e90               0  .text.GetWiFiDisp
+	$t                                 0x00002e90               0  .text.GetWiFiDisp
+	$d                                 0x00002edc               0  .text.GetWiFiDisp
+	$d                                 0x00002ee8               0  .text.GetLockDisp
+	$t                                 0x00002ee8               0  .text.GetLockDisp
+	$d                                 0x00002f00               0  .text.GetLockDisp
+	$d                                 0x00002f04               0  .text.SetDisplay
+	$t                                 0x00002f04               0  .text.SetDisplay
+	$d                                 0x00003064               0  .text.SetDisplay
+	$d                                 0x0000307c               0  .text.Lcd_Disp
+	$t                                 0x0000307c               0  .text.Lcd_Disp
+	$d                                 0x0000311c               0  .text.Lcd_Disp
+	$d                                 0x00003120               0  .text.Uart_Send_String
+	$t                                 0x00003120               0  .text.Uart_Send_String
+	$d                                 0x0000313c               0  .text.Uart_Send_String
+	$d                                 0x00003140               0  .text.Tx_Data_Sum
+	$t                                 0x00003140               0  .text.Tx_Data_Sum
+	$d                                 0x0000316c               0  .text.Tx_Data_Sum
+	$d                                 0x00003174               0  .text.Send_Data_Pid
+	$t                                 0x00003174               0  .text.Send_Data_Pid
+	$d                                 0x000031b8               0  .text.Send_Data_Pid
+	$d                                 0x000031cc               0  .text.Send_Data_Hot
+	$t                                 0x000031cc               0  .text.Send_Data_Hot
+	$d                                 0x00003200               0  .text.Send_Data_Hot
+	$d                                 0x0000320c               0  .text.Send_Data_Hot_Ack
+	$t                                 0x0000320c               0  .text.Send_Data_Hot_Ack
+	$d                                 0x00003268               0  .text.Send_Data_Hot_Ack
+	$d                                 0x00003280               0  .text.Send_Data_STTemp
+	$t                                 0x00003280               0  .text.Send_Data_STTemp
+	$d                                 0x000032ac               0  .text.Send_Data_STTemp
+	$d                                 0x000032bc               0  .text.Send_Data_STTemp_Ack
+	$t                                 0x000032bc               0  .text.Send_Data_STTemp_Ack
+	$d                                 0x000032f4               0  .text.Send_Data_STTemp_Ack
+	$d                                 0x00003308               0  .text.Send_Data_RTTemp
+	$t                                 0x00003308               0  .text.Send_Data_RTTemp
+	$d                                 0x00003334               0  .text.Send_Data_RTTemp
+	$d                                 0x00003344               0  .text.Send_Data_Sence
+	$t                                 0x00003344               0  .text.Send_Data_Sence
+	$d                                 0x00003378               0  .text.Send_Data_Sence
+	$d                                 0x00003384               0  .text.Get_Sum
+	$t                                 0x00003384               0  .text.Get_Sum
+	$d                                 0x000033a8               0  .text.Get_Sum
+	$d                                 0x000033ac               0  .text.rw_compare
+	$t                                 0x000033ac               0  .text.rw_compare
+	$d                                 0x000033c8               0  .text.Uart_Rx
+	$t                                 0x000033c8               0  .text.Uart_Rx
+	$d                                 0x0000345c               0  .text.Uart_Rx
+	$t                                 0x00003496               0  .text.Uart_Rx
+	$d                                 0x000036d0               0  .text.Uart_Rx
+	$d                                 0x0000374c               0  .text.Uart_Tx_Rx
+	$t                                 0x0000374c               0  .text.Uart_Tx_Rx
+	$d                                 0x00003830               0  .text.Uart_Tx_Rx
+	CSWTCH.14                          0x00003848      O        8  .rodata
+	CSWTCH.16                          0x00003848      O        8  .rodata
+	CSWTCH.13                          0x00003850      O       32  .rodata
+	CSWTCH.15                          0x00003850      O       32  .rodata
+	CSWTCH.18                          0x00003850      O       32  .rodata
+	CSWTCH.19                          0x00003850      O       32  .rodata
+	Time500ms.5517                     0x2000014e      O        1  .bss
+	KeyCnt.2757                        0x2000015c      O        4  .bss
+	KeySpeed.2758                      0x20000160      O        1  .bss
+
+	Global Symbols
+
+	Symbol Name                        Value        Type   Size  Section
+	vector_table                       0x00001000               0  .text
+	__start                            0x0000110c               0  .text
+	__exit                             0x00001160               0  .text
+	__fail                             0x00001176               0  .text
+	DummyHandler                       0x00001184               0  .text
+	___gnu_csky_case_uhi               0x000011b4      F       26  .text
+	__memset_fast                      0x000011d0    w F      136  .text
+	memset                             0x000011d0    w F      136  .text
+	__memcpy_fast                      0x00001258    w F      100  .text
+	memcpy                             0x00001258    w F      100  .text
+	__main                             0x000012bc      F       56  .text.__main
+	__divsi3                           0x000012f4      F       36  .text.__divsi3
+	__udivsi3                          0x00001318      F       36  .text.__udivsi3
+	__modsi3                           0x0000133c      F       36  .text.__modsi3
+	__umodsi3                          0x00001360      F       36  .text.__umodsi3
+	ReadDataArry                       0x00001384      F       46  .text.ReadDataArry
+	ProgramData_Word                   0x000013b4      F      260  .text.ProgramData_Word
+	BT_DeInit                          0x000014b8      F       28  .text.BT_DeInit
+	BT_IO_Init                         0x000014d4      F      320  .text.BT_IO_Init
+	BT_Start                           0x00001614      F        8  .text.BT_Start
+	BT_Configure                       0x0000161c      F       24  .text.BT_Configure
+	BT_ControlSet_Configure            0x00001634      F       44  .text.BT_ControlSet_Configure
+	BT_Period_CMP_Write                0x00001660      F        6  .text.BT_Period_CMP_Write
+	BT_ConfigInterrupt_CMD             0x00001666      F       18  .text.BT_ConfigInterrupt_CMD
+	BT0_INT_ENABLE                     0x00001678      F       16  .text.BT0_INT_ENABLE
+	GPIO_Init                          0x00001688      F      104  .text.GPIO_Init
+	GPIO_PullHigh_Init                 0x000016f0      F       20  .text.GPIO_PullHigh_Init
+	GPIO_Write_High                    0x00001704      F        8  .text.GPIO_Write_High
+	GPIO_Write_Low                     0x0000170c      F        8  .text.GPIO_Write_Low
+	GPIO_Reverse                       0x00001714      F       22  .text.GPIO_Reverse
+	GPIO_Read_Status                   0x0000172a      F       16  .text.GPIO_Read_Status
+	GPIO_Read_Output                   0x0000173a      F       16  .text.GPIO_Read_Output
+	I2C_ConfigInterrupt_CMD            0x0000174c      F       32  .text.I2C_ConfigInterrupt_CMD
+	I2C_Enable                         0x0000176c      F       28  .text.I2C_Enable
+	I2C_Disable                        0x00001788      F       28  .text.I2C_Disable
+	I2C_Slave_Receive                  0x000017a4      F      304  .text.I2C_Slave_Receive
+	UART1_DeInit                       0x000018d4      F       24  .text.UART1_DeInit
+	UART2_DeInit                       0x000018ec      F       24  .text.UART2_DeInit
+	UART1_Int_Enable                   0x00001904      F       28  .text.UART1_Int_Enable
+	UART2_Int_Enable                   0x00001920      F       28  .text.UART2_Int_Enable
+	UART_IO_Init                       0x0000193c      F      232  .text.UART_IO_Init
+	UARTInitRxTxIntEn                  0x00001a24      F       16  .text.UARTInitRxTxIntEn
+	UARTTxByte                         0x00001a34      F       14  .text.UARTTxByte
+	WWDT_CNT_Load                      0x00001a44      F       16  .text.WWDT_CNT_Load
+	IoInit                             0x00001a54      F      132  .text.IoInit
+	rst_mcu                            0x00001ad8      F       28  .text.rst_mcu
+	feed_IWDT                          0x00001af4      F       20  .text.feed_IWDT
+	Wait                               0x00001b08      F       28  .text.Wait
+	Ram_Init                           0x00001b24      F       76  .text.Ram_Init
+	main                               0x00001b70      F      436  .text.startup.main
+	BT_CONFIG                          0x00001d24      F       96  .text.BT_CONFIG
+	UART1_CONFIG                       0x00001d84      F       36  .text.UART1_CONFIG
+	UART2_CONFIG                       0x00001da8      F       36  .text.UART2_CONFIG
+	IFC_CONFIG                         0x00001dcc      F       20  .text.IFC_CONFIG
+	CORETHandler                       0x00001de0      F       24  .text.CORETHandler
+	SYSCONIntHandler                   0x00001df8      F      228  .text.SYSCONIntHandler
+	IFCIntHandler                      0x00001edc      F      236  .text.IFCIntHandler
+	EPT0IntHandler                     0x00001fc8      F      280  .text.EPT0IntHandler
+	WWDTHandler                        0x000020e0      F       76  .text.WWDTHandler
+	GPT0IntHandler                     0x0000212c      F      180  .text.GPT0IntHandler
+	RTCIntHandler                      0x000021e0      F      112  .text.RTCIntHandler
+	UART0IntHandler                    0x00002250      F       60  .text.UART0IntHandler
+	UART1IntHandler                    0x0000228c      F       40  .text.UART1IntHandler
+	UART2IntHandler                    0x000022b4      F      144  .text.UART2IntHandler
+	I2CIntHandler                      0x00002344      F       20  .text.I2CIntHandler
+	SPI0IntHandler                     0x00002358      F       60  .text.SPI0IntHandler
+	SIO0IntHandler                     0x00002394      F      132  .text.SIO0IntHandler
+	EXI0IntHandler                     0x00002418      F       32  .text.EXI0IntHandler
+	EXI1IntHandler                     0x00002438      F       32  .text.EXI1IntHandler
+	EXI2to3IntHandler                  0x00002458      F       44  .text.EXI2to3IntHandler
+	EXI4to8IntHandler                  0x00002484      F       80  .text.EXI4to8IntHandler
+	EXI9to13IntHandler                 0x000024d4      F       84  .text.EXI9to13IntHandler
+	LPTIntHandler                      0x00002528      F       64  .text.LPTIntHandler
+	BT0IntHandler                      0x00002568      F      384  .text.BT0IntHandler
+	BT1IntHandler                      0x000026e8      F       72  .text.BT1IntHandler
+	PriviledgeVioHandler               0x00002730      F        2  .text.PriviledgeVioHandler
+	PendTrapHandler                    0x00002732      F        8  .text.PendTrapHandler
+	Trap3Handler                       0x0000273a      F        8  .text.Trap3Handler
+	Trap2Handler                       0x00002742      F        8  .text.Trap2Handler
+	Trap1Handler                       0x0000274a      F        8  .text.Trap1Handler
+	Trap0Handler                       0x00002752      F        8  .text.Trap0Handler
+	UnrecExecpHandler                  0x0000275a      F        8  .text.UnrecExecpHandler
+	BreakPointHandler                  0x00002762      F        8  .text.BreakPointHandler
+	AccessErrHandler                   0x0000276a      F        8  .text.AccessErrHandler
+	IllegalInstrHandler                0x00002772      F        8  .text.IllegalInstrHandler
+	MisalignedHandler                  0x0000277a      F        8  .text.MisalignedHandler
+	TKEYIntHandler                     0x00002782      F        8  .text.TKEYIntHandler
+	CNTAIntHandler                     0x0000278a      F        8  .text.CNTAIntHandler
+	ADCIntHandler                      0x00002792      F        8  .text.ADCIntHandler
+	__putchar__                        0x0000279c      F       56  .text.__putchar__
+	myitoa                             0x000027d4      F      140  .text.myitoa
+	my_printf                          0x00002860      F      192  .text.my_printf
+	FlagGetBit                         0x00002920      F       32  .text.FlagGetBit
+	FlagSetBit                         0x00002940      F       44  .text.FlagSetBit
+	FlagClearBit                       0x0000296c      F       36  .text.FlagClearBit
+	FlagReverseBit                     0x00002990      F       44  .text.FlagReverseBit
+	HtBitsWr                           0x000029bc      F      136  .text.HtBitsWr
+	ht_wr_4bit                         0x00002a44      F       26  .text.ht_wr_4bit
+	LcdInit                            0x00002a60      F       52  .text.LcdInit
+	SetBeep                            0x00002a94      F       24  .text.SetBeep
+	Bled_On                            0x00002aac      F       28  .text.Bled_On
+	Key_Power_Switch                   0x00002ac8      F       76  .text.Key_Power_Switch
+	Key_Add                            0x00002b14      F      116  .text.Key_Add
+	Key_Dec                            0x00002b88      F      108  .text.Key_Dec
+	Key_WifiRst                        0x00002bf4      F       76  .text.Key_WifiRst
+	ScanKey                            0x00002c40      F      268  .text.ScanKey
+	GetTmpDisp                         0x00002d4c      F       64  .text.GetTmpDisp
+	SetClkDisp                         0x00002d8c      F      136  .text.SetClkDisp
+	GetTmrDisp                         0x00002e14      F      124  .text.GetTmrDisp
+	GetWiFiDisp                        0x00002e90      F       88  .text.GetWiFiDisp
+	GetLockDisp                        0x00002ee8      F       28  .text.GetLockDisp
+	SetDisplay                         0x00002f04      F      376  .text.SetDisplay
+	Lcd_Disp                           0x0000307c      F      164  .text.Lcd_Disp
+	Uart_Send_String                   0x00003120      F       32  .text.Uart_Send_String
+	Tx_Data_Sum                        0x00003140      F       52  .text.Tx_Data_Sum
+	Send_Data_Pid                      0x00003174      F       88  .text.Send_Data_Pid
+	Send_Data_Hot                      0x000031cc      F       64  .text.Send_Data_Hot
+	Send_Data_Hot_Ack                  0x0000320c      F      116  .text.Send_Data_Hot_Ack
+	Send_Data_STTemp                   0x00003280      F       60  .text.Send_Data_STTemp
+	Send_Data_STTemp_Ack               0x000032bc      F       76  .text.Send_Data_STTemp_Ack
+	Send_Data_RTTemp                   0x00003308      F       60  .text.Send_Data_RTTemp
+	Send_Data_Sence                    0x00003344      F       64  .text.Send_Data_Sence
+	Get_Sum                            0x00003384      F       40  .text.Get_Sum
+	rw_compare                         0x000033ac      F       28  .text.rw_compare
+	Uart_Rx                            0x000033c8      F      900  .text.Uart_Rx
+	Uart_Tx_Rx                         0x0000374c      F      252  .text.Uart_Tx_Rx
+	_end_rodata                        0x000039c4               0  .rodata
+	HWD                                0x20000000      O        4  .data
+	_start_data                        0x20000000               0  .data
+	CRC                                0x20000004      O        4  .data
+	BT1                                0x20000008      O        4  .data
+	BT0                                0x2000000c      O        4  .data
+	WWDT                               0x20000010      O        4  .data
+	LPT                                0x20000014      O        4  .data
+	RTC                                0x20000018      O        4  .data
+	ETCB                               0x2000001c      O        4  .data
+	EPT0                               0x20000020      O        4  .data
+	GPT0                               0x20000024      O        4  .data
+	CA0                                0x20000028      O        4  .data
+	SIO0                               0x2000002c      O        4  .data
+	I2C0                               0x20000030      O        4  .data
+	SPI0                               0x20000034      O        4  .data
+	UART2                              0x20000038      O        4  .data
+	UART1                              0x2000003c      O        4  .data
+	UART0                              0x20000040      O        4  .data
+	GPIOGRP                            0x20000044      O        4  .data
+	GPIOB0                             0x20000048      O        4  .data
+	GPIOA0                             0x2000004c      O        4  .data
+	ADC0                               0x20000050      O        4  .data
+	TKEY                               0x20000054      O        4  .data
+	SYSCON                             0x20000058      O        4  .data
+	IFC                                0x2000005c      O        4  .data
+	CK801                              0x20000060      O        4  .data
+	UART_CH_SEL                        0x20000064      O        1  .data
+	DispTab                            0x20000065      O       26  .data
+	PidCom                             0x2000007f      O        6  .data
+	PidCode                            0x20000085      O       43  .data
+	Mcu_Hot_Tab                        0x200000b0      O       10  .data
+	Mcu_STTemp_Tab                     0x200000ba      O       13  .data
+	Mcu_RTTemp_Tab                     0x200000c7      O       13  .data
+	Mcu_TimerOn_Tab                    0x200000d4      O       12  .data
+	Mcu_Sence_Tab                      0x200000e0      O       10  .data
+	Mcu_Ret_Front_Tab                  0x200000ea      O        8  .data
+	Mcu_Ret_Back_Tab                   0x200000f2      O        8  .data
+	Mcu_WorkMode_Tab                   0x200000fa      O        7  .data
+	Mcu_WifiState_Tab                  0x20000101      O        7  .data
+	Mcu_UpgradeStart_Tab               0x20000108      O        8  .data
+	Mcu_UpgradeTransmit_Tab            0x20000110      O        7  .data
+	Mcu_Wifi_Tab                       0x20000117      O        7  .data
+	Mcu_ReWifi_Tab                     0x2000011e      O        7  .data
+	Mcu_RstToSmart_Tab                 0x20000125      O        8  .data
+	Mcu_RstToAp_Tab                    0x2000012d      O        8  .data
+	Mcu_GetClk_Tab                     0x20000135      O        7  .data
+	Mod_ReWifi_Tab                     0x2000013c      O       12  .data
+	_end_data                          0x20000148               0  .data
+	_bss_start                         0x20000148               0  .bss
+	f_Drom_writing                     0x20000148      O        1  .bss
+	f_Drom_write_complete              0x20000149      O        1  .bss
+	f_ERROR                            0x2000014a      O        1  .bss
+	RdIndex                            0x2000014b      O        1  .bss
+	WrIndex                            0x2000014c      O        1  .bss
+	g_RxData                           0x2000014d      O        1  .bss
+	g_byVersionflag                    0x20000150      O        1  .bss
+	g_dwFirmwareSize                   0x20000154      O        4  .bss
+	g_byUpgradeflag                    0x20000158      O        1  .bss
+	g_byTransmmitflag                  0x20000159      O        1  .bss
+	R_INT_FlashAdd                     0x20000164      O        4  .bss
+	ifc_step                           0x20000168      O        1  .bss
+	I2C_St_Adress                      0x20000169      O        1  .bss
+	I2CWrBuffer                        0x2000016a      O       32  .bss
+	I2C_Data_Adress                    0x2000018a      O        1  .bss
+	I2CRdBuffer                        0x2000018b      O       32  .bss
+	R_CMPB_BUF                         0x200001ac      O        4  .bss
+	r_urat_cont                        0x200001b0      O        1  .bss
+	R_SIOTX_count                      0x200001b4      O        4  .bss
+	r_uart_buf                         0x200001b8      O        9  .bss
+	SPI_DATA                           0x200001c4      O       32  .bss
+	R_CMPA_BUF                         0x200001e4      O        4  .bss
+	f_io_toggle                        0x200001e8      O        1  .bss
+	R_SIORX_count                      0x200001ec      O        4  .bss
+	R_SIORX_buf                        0x200001f0      O       40  .bss
+	Flag1                              0x20000218      O        4  .bss
+	Tx_Buf_Sum                         0x2000021c      O        1  .bss
+	GetClkTimeOut                      0x2000021d      O        1  .bss
+	Time1s                             0x2000021e      O        1  .bss
+	CdBitCn                            0x2000021f      O        1  .bss
+	Index                              0x20000220      O        1  .bss
+	Rx_Code_Buf                        0x20000221      O        3  .bss
+	Timer_On_Buf                       0x20000224      O        1  .bss
+	DispBuf                            0x20000225      O        9  .bss
+	BeepLen                            0x2000022e      O        1  .bss
+	Temp16                             0x20000230      O        2  .bss
+	SysTime                            0x20000232      O        1  .bss
+	Flash_Step                         0x20000233      O        1  .bss
+	Room_Temp_Buf                      0x20000234      O        1  .bss
+	Time_Tx                            0x20000235      O        1  .bss
+	AdjTmp                             0x20000236      O        1  .bss
+	Time2500us                         0x20000237      O        1  .bss
+	Rx_Code_Data                       0x20000238      O        2  .bss
+	Time1m                             0x2000023a      O        1  .bss
+	Flash_Lengh                        0x2000023b      O        1  .bss
+	HotOnTimeSum                       0x2000023c      O        2  .bss
+	Time_500mS                         0x2000023e      O        1  .bss
+	Rx_Count                           0x20000240      O        2  .bss
+	Tx_Count                           0x20000242      O        1  .bss
+	Set_Temp_Buf                       0x20000243      O        1  .bss
+	AD_Value                           0x20000244      O        4  .bss
+	Sms_Buf                            0x20000248      O        1  .bss
+	CdSample                           0x20000249      O        1  .bss
+	Wifi_State                         0x2000024a      O        1  .bss
+	SetDly                             0x2000024b      O        1  .bss
+	TempVer                            0x2000024c      O        2  .bss
+	Goto_Temp                          0x2000024e      O        1  .bss
+	ClkH                               0x2000024f      O        1  .bss
+	Time_1Min                          0x20000250      O        1  .bss
+	AD_Buf                             0x20000252      O        2  .bss
+	CdData                             0x20000254      O        3  .bss
+	HotOffTimeSum                      0x20000258      O        2  .bss
+	Run_Step                           0x2000025a      O        1  .bss
+	Disp_Temp                          0x2000025b      O        1  .bss
+	KeyVal                             0x2000025c      O        1  .bss
+	RxDoneCnt                          0x2000025d      O        1  .bss
+	TimerM                             0x2000025e      O        1  .bss
+	Tx_Buf                             0x2000025f      O       64  .bss
+	Timer_Swi                          0x200002a0      O        2  .bss
+	AD_Count                           0x200002a2      O        1  .bss
+	Time_10mS                          0x200002a3      O        1  .bss
+	PeiWangTimer                       0x200002a4      O        1  .bss
+	Reset_1Min                         0x200002a5      O        1  .bss
+	AD_Dly                             0x200002a6      O        1  .bss
+	FlashTime                          0x200002a7      O        1  .bss
+	Rx_Buf_Sum                         0x200002a8      O        1  .bss
+	Time1h                             0x200002a9      O        1  .bss
+	Time_50mS                          0x200002aa      O        1  .bss
+	Flag2                              0x200002ac      O        4  .bss
+	Time100ms                          0x200002b0      O        1  .bss
+	Led_Cnt                            0x200002b1      O        1  .bss
+	CdDataBak                          0x200002b2      O        3  .bss
+	AD_Data_Sum                        0x200002b8      O        4  .bss
+	Rx_Buf                             0x200002bc      O      300  .bss
+	TxSTRT_Cnt                         0x200003e8      O        1  .bss
+	TimerH                             0x200003e9      O        1  .bss
+	SetCnt                             0x200003ea      O        1  .bss
+	ClkM                               0x200003eb      O        1  .bss
+	Time_1d2S                          0x200003ec      O        1  .bss
+	DlyOffBled                         0x200003ee      O        2  .bss
+	_ebss                              0x200003f0               0  .bss
+	_end                               0x200003f0               0  .bss
+	end                                0x200003f0               0  .bss
+	__kernel_stack                     0x20000ff8               0  .text
+
+	(w:Weak    d:Deubg    F:Function    f:File name    O:Zero)
+
+
+======================================================================
+
+Memory Map of the image
+
+    Image Entry point : 0x0000110c
+
+    Region ROM (Base: 0x00001000, Size: 0x000029c4, Max: 0x00007800)
+
+    Base Addr    Size         Type   Attr      Idx   Section Name       Object
+    0x00001000   0x000001b4   Code   RO         16  .text          	Obj/arch_crt0.o
+    0x000011b4   0x0000001a   Code   RO       1027  .text          	_csky_case_uhi.o
+    0x000011ce   0x00000002   PAD
+    0x000011d0   0x00000088   Code   RO       1039  .text          	memset_fast.o
+    0x00001258   0x00000064   Code   RO       1044  .text          	memcpy_fast.o
+    0x000012bc   0x00000038   Code   RO         28  .text.__main   	Obj/arch_mem_init.o
+    0x000012f4   0x00000024   Code   RO         44  .text.__divsi3 	Obj/drivers_apt32f102.o
+    0x00001318   0x00000024   Code   RO         45  .text.__udivsi3	Obj/drivers_apt32f102.o
+    0x0000133c   0x00000024   Code   RO         46  .text.__modsi3 	Obj/drivers_apt32f102.o
+    0x00001360   0x00000024   Code   RO         47  .text.__umodsi3	Obj/drivers_apt32f102.o
+    0x00001384   0x0000002e   Code   RO        121  .text.ReadDataArry	Obj/FWlib_apt32f101_ifc.o
+    0x000013b4   0x00000104   Code   RO        122  .text.ProgramData_Word	Obj/FWlib_apt32f101_ifc.o
+    0x000014b8   0x0000001c   Code   RO        143  .text.BT_DeInit	Obj/FWlib_apt32f102_bt.o
+    0x000014d4   0x00000140   Code   RO        144  .text.BT_IO_Init	Obj/FWlib_apt32f102_bt.o
+    0x00001614   0x00000008   Code   RO        145  .text.BT_Start 	Obj/FWlib_apt32f102_bt.o
+    0x0000161c   0x00000018   Code   RO        148  .text.BT_Configure	Obj/FWlib_apt32f102_bt.o
+    0x00001634   0x0000002c   Code   RO        149  .text.BT_ControlSet_Configure	Obj/FWlib_apt32f102_bt.o
+    0x00001660   0x00000006   Code   RO        150  .text.BT_Period_CMP_Write	Obj/FWlib_apt32f102_bt.o
+    0x00001666   0x00000012   Code   RO        157  .text.BT_ConfigInterrupt_CMD	Obj/FWlib_apt32f102_bt.o
+    0x00001678   0x00000010   Code   RO        158  .text.BT0_INT_ENABLE	Obj/FWlib_apt32f102_bt.o
+    0x00001688   0x00000068   Code   RO        337  .text.GPIO_Init	Obj/FWlib_apt32f102_gpio.o
+    0x000016f0   0x00000014   Code   RO        340  .text.GPIO_PullHigh_Init	Obj/FWlib_apt32f102_gpio.o
+    0x00001704   0x00000008   Code   RO        352  .text.GPIO_Write_High	Obj/FWlib_apt32f102_gpio.o
+    0x0000170c   0x00000008   Code   RO        353  .text.GPIO_Write_Low	Obj/FWlib_apt32f102_gpio.o
+    0x00001714   0x00000016   Code   RO        355  .text.GPIO_Reverse	Obj/FWlib_apt32f102_gpio.o
+    0x0000172a   0x00000010   Code   RO        356  .text.GPIO_Read_Status	Obj/FWlib_apt32f102_gpio.o
+    0x0000173a   0x00000010   Code   RO        357  .text.GPIO_Read_Output	Obj/FWlib_apt32f102_gpio.o
+    0x0000174c   0x00000020   Code   RO        440  .text.I2C_ConfigInterrupt_CMD	Obj/FWlib_apt32f102_i2c.o
+    0x0000176c   0x0000001c   Code   RO        443  .text.I2C_Enable	Obj/FWlib_apt32f102_i2c.o
+    0x00001788   0x0000001c   Code   RO        444  .text.I2C_Disable	Obj/FWlib_apt32f102_i2c.o
+    0x000017a4   0x00000130   Code   RO        455  .text.I2C_Slave_Receive	Obj/FWlib_apt32f102_i2c.o
+    0x000018d4   0x00000018   Code   RO        671  .text.UART1_DeInit	Obj/FWlib_apt32f102_uart.o
+    0x000018ec   0x00000018   Code   RO        672  .text.UART2_DeInit	Obj/FWlib_apt32f102_uart.o
+    0x00001904   0x0000001c   Code   RO        675  .text.UART1_Int_Enable	Obj/FWlib_apt32f102_uart.o
+    0x00001920   0x0000001c   Code   RO        677  .text.UART2_Int_Enable	Obj/FWlib_apt32f102_uart.o
+    0x0000193c   0x000000e8   Code   RO        685  .text.UART_IO_Init	Obj/FWlib_apt32f102_uart.o
+    0x00001a24   0x00000010   Code   RO        687  .text.UARTInitRxTxIntEn	Obj/FWlib_apt32f102_uart.o
+    0x00001a34   0x0000000e   Code   RO        690  .text.UARTTxByte	Obj/FWlib_apt32f102_uart.o
+    0x00001a44   0x00000010   Code   RO        714  .text.WWDT_CNT_Load	Obj/FWlib_apt32f102_wwdt.o
+    0x00001a54   0x00000084   Code   RO        732  .text.IoInit   	Obj/source_main.o
+    0x00001ad8   0x0000001c   Code   RO        734  .text.rst_mcu  	Obj/source_main.o
+    0x00001af4   0x00000014   Code   RO        735  .text.feed_IWDT	Obj/source_main.o
+    0x00001b08   0x0000001c   Code   RO        736  .text.Wait     	Obj/source_main.o
+    0x00001b24   0x0000004c   Code   RO        738  .text.Ram_Init 	Obj/source_main.o
+    0x00001b70   0x000001b4   Code   RO        740  .text.startup.main	Obj/source_main.o
+    0x00001d24   0x00000060   Code   RO        765  .text.BT_CONFIG	Obj/source_apt32f102_initial.o
+    0x00001d84   0x00000024   Code   RO        775  .text.UART1_CONFIG	Obj/source_apt32f102_initial.o
+    0x00001da8   0x00000024   Code   RO        776  .text.UART2_CONFIG	Obj/source_apt32f102_initial.o
+    0x00001dcc   0x00000014   Code   RO        777  .text.IFC_CONFIG	Obj/source_apt32f102_initial.o
+    0x00001de0   0x00000018   Code   RO        798  .text.CORETHandler	Obj/source_apt32f102_interrupt.o
+    0x00001df8   0x000000e4   Code   RO        799  .text.SYSCONIntHandler	Obj/source_apt32f102_interrupt.o
+    0x00001edc   0x000000ec   Code   RO        800  .text.IFCIntHandler	Obj/source_apt32f102_interrupt.o
+    0x00001fc8   0x00000118   Code   RO        801  .text.EPT0IntHandler	Obj/source_apt32f102_interrupt.o
+    0x000020e0   0x0000004c   Code   RO        802  .text.WWDTHandler	Obj/source_apt32f102_interrupt.o
+    0x0000212c   0x000000b4   Code   RO        803  .text.GPT0IntHandler	Obj/source_apt32f102_interrupt.o
+    0x000021e0   0x00000070   Code   RO        804  .text.RTCIntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002250   0x0000003c   Code   RO        805  .text.UART0IntHandler	Obj/source_apt32f102_interrupt.o
+    0x0000228c   0x00000028   Code   RO        806  .text.UART1IntHandler	Obj/source_apt32f102_interrupt.o
+    0x000022b4   0x00000090   Code   RO        807  .text.UART2IntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002344   0x00000014   Code   RO        808  .text.I2CIntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002358   0x0000003c   Code   RO        809  .text.SPI0IntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002394   0x00000084   Code   RO        810  .text.SIO0IntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002418   0x00000020   Code   RO        811  .text.EXI0IntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002438   0x00000020   Code   RO        812  .text.EXI1IntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002458   0x0000002c   Code   RO        813  .text.EXI2to3IntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002484   0x00000050   Code   RO        814  .text.EXI4to8IntHandler	Obj/source_apt32f102_interrupt.o
+    0x000024d4   0x00000054   Code   RO        815  .text.EXI9to13IntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002528   0x00000040   Code   RO        816  .text.LPTIntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002568   0x00000180   Code   RO        817  .text.BT0IntHandler	Obj/source_apt32f102_interrupt.o
+    0x000026e8   0x00000048   Code   RO        818  .text.BT1IntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002730   0x00000002   Code   RO        819  .text.PriviledgeVioHandler	Obj/source_apt32f102_interrupt.o
+    0x00002732   0x00000008   Code   RO        821  .text.PendTrapHandler	Obj/source_apt32f102_interrupt.o
+    0x0000273a   0x00000008   Code   RO        822  .text.Trap3Handler	Obj/source_apt32f102_interrupt.o
+    0x00002742   0x00000008   Code   RO        823  .text.Trap2Handler	Obj/source_apt32f102_interrupt.o
+    0x0000274a   0x00000008   Code   RO        824  .text.Trap1Handler	Obj/source_apt32f102_interrupt.o
+    0x00002752   0x00000008   Code   RO        825  .text.Trap0Handler	Obj/source_apt32f102_interrupt.o
+    0x0000275a   0x00000008   Code   RO        826  .text.UnrecExecpHandler	Obj/source_apt32f102_interrupt.o
+    0x00002762   0x00000008   Code   RO        827  .text.BreakPointHandler	Obj/source_apt32f102_interrupt.o
+    0x0000276a   0x00000008   Code   RO        828  .text.AccessErrHandler	Obj/source_apt32f102_interrupt.o
+    0x00002772   0x00000008   Code   RO        829  .text.IllegalInstrHandler	Obj/source_apt32f102_interrupt.o
+    0x0000277a   0x00000008   Code   RO        830  .text.MisalignedHandler	Obj/source_apt32f102_interrupt.o
+    0x00002782   0x00000008   Code   RO        831  .text.TKEYIntHandler	Obj/source_apt32f102_interrupt.o
+    0x0000278a   0x00000008   Code   RO        832  .text.CNTAIntHandler	Obj/source_apt32f102_interrupt.o
+    0x00002792   0x00000008   Code   RO        833  .text.ADCIntHandler	Obj/source_apt32f102_interrupt.o
+    0x0000279c   0x00000038   Code   RO        871  .text.__putchar__	Obj/source_iostring.o
+    0x000027d4   0x0000008c   Code   RO        873  .text.myitoa   	Obj/source_iostring.o
+    0x00002860   0x000000c0   Code   RO        874  .text.my_printf	Obj/source_iostring.o
+    0x00002920   0x00000020   Code   RO        893  .text.FlagGetBit	Obj/source_define.o
+    0x00002940   0x0000002c   Code   RO        894  .text.FlagSetBit	Obj/source_define.o
+    0x0000296c   0x00000024   Code   RO        895  .text.FlagClearBit	Obj/source_define.o
+    0x00002990   0x0000002c   Code   RO        896  .text.FlagReverseBit	Obj/source_define.o
+    0x000029bc   0x00000088   Code   RO        913  .text.HtBitsWr 	Obj/source_Ht1621.o
+    0x00002a44   0x0000001a   Code   RO        914  .text.ht_wr_4bit	Obj/source_Ht1621.o
+    0x00002a60   0x00000034   Code   RO        915  .text.LcdInit  	Obj/source_Ht1621.o
+    0x00002a94   0x00000018   Code   RO        932  .text.SetBeep  	Obj/source_key.o
+    0x00002aac   0x0000001c   Code   RO        933  .text.Bled_On  	Obj/source_key.o
+    0x00002ac8   0x0000004c   Code   RO        935  .text.Key_Power_Switch	Obj/source_key.o
+    0x00002b14   0x00000074   Code   RO        936  .text.Key_Add  	Obj/source_key.o
+    0x00002b88   0x0000006c   Code   RO        937  .text.Key_Dec  	Obj/source_key.o
+    0x00002bf4   0x0000004c   Code   RO        938  .text.Key_WifiRst	Obj/source_key.o
+    0x00002c40   0x0000010c   Code   RO        939  .text.ScanKey  	Obj/source_key.o
+    0x00002d4c   0x00000040   Code   RO        955  .text.GetTmpDisp	Obj/source_disp.o
+    0x00002d8c   0x00000088   Code   RO        956  .text.SetClkDisp	Obj/source_disp.o
+    0x00002e14   0x0000007c   Code   RO        957  .text.GetTmrDisp	Obj/source_disp.o
+    0x00002e90   0x00000058   Code   RO        958  .text.GetWiFiDisp	Obj/source_disp.o
+    0x00002ee8   0x0000001c   Code   RO        959  .text.GetLockDisp	Obj/source_disp.o
+    0x00002f04   0x00000178   Code   RO        960  .text.SetDisplay	Obj/source_disp.o
+    0x0000307c   0x000000a4   Code   RO        961  .text.Lcd_Disp 	Obj/source_disp.o
+    0x00003120   0x00000020   Code   RO        978  .text.Uart_Send_String	Obj/source_uart.o
+    0x00003140   0x00000034   Code   RO        979  .text.Tx_Data_Sum	Obj/source_uart.o
+    0x00003174   0x00000058   Code   RO        980  .text.Send_Data_Pid	Obj/source_uart.o
+    0x000031cc   0x00000040   Code   RO        981  .text.Send_Data_Hot	Obj/source_uart.o
+    0x0000320c   0x00000074   Code   RO        982  .text.Send_Data_Hot_Ack	Obj/source_uart.o
+    0x00003280   0x0000003c   Code   RO        983  .text.Send_Data_STTemp	Obj/source_uart.o
+    0x000032bc   0x0000004c   Code   RO        984  .text.Send_Data_STTemp_Ack	Obj/source_uart.o
+    0x00003308   0x0000003c   Code   RO        985  .text.Send_Data_RTTemp	Obj/source_uart.o
+    0x00003344   0x00000040   Code   RO        990  .text.Send_Data_Sence	Obj/source_uart.o
+    0x00003384   0x00000028   Code   RO        991  .text.Get_Sum  	Obj/source_uart.o
+    0x000033ac   0x0000001c   Code   RO        992  .text.rw_compare	Obj/source_uart.o
+    0x000033c8   0x00000384   Code   RO        993  .text.Uart_Rx  	Obj/source_uart.o
+    0x0000374c   0x000000fc   Code   RO        994  .text.Uart_Tx_Rx	Obj/source_uart.o
+    0x00003848   0x00000028   Data   RO        358  .rodata        	Obj/FWlib_apt32f102_gpio.o
+    0x00003870   0x00000044   Data   RO        741  .rodata.str1.1 	Obj/source_main.o
+    0x000038b4   0x0000010e   Data   RO        995  .rodata.str1.1 	Obj/source_uart.o
+    0x000039c2   0x00000002   PAD
+
+    Region RAM (Base: 0x20000000, Size: 0x000003f0, Max: 0x00001000)
+
+    Base Addr    Size         Type   Attr      Idx   Section Name       Object
+    0x20000000   0x00000064   Data   RW         42  .data          	Obj/drivers_apt32f102.o
+    0x20000064   0x00000001   Data   RW        869  .data          	Obj/source_iostring.o
+    0x20000065   0x0000001a   Data   RW        953  .data          	Obj/source_disp.o
+    0x2000007f   0x000000c9   Data   RW        976  .data          	Obj/source_uart.o
+    0x20000148   0x00000002   Zero   RW        116  .bss           	Obj/FWlib_apt32f101_ifc.o
+    0x2000014a   0x00000003   Zero   RW        435  .bss           	Obj/FWlib_apt32f102_i2c.o
+    0x2000014d   0x00000002   Zero   RW        797  .bss           	Obj/source_apt32f102_interrupt.o
+    0x2000014f   0x00000001   PAD
+    0x20000150   0x0000000a   Zero   RW        892  .bss           	Obj/source_define.o
+    0x2000015a   0x00000002   PAD
+    0x2000015c   0x00000005   Zero   RW        931  .bss           	Obj/source_key.o
+    0x20000161   0x00000003   PAD
+    0x20000164   0x00000005   Zero   RW        139  COMMON         	Obj/FWlib_apt32f101_ifc.o
+    0x20000169   0x00000042   Zero   RW        469  COMMON         	Obj/FWlib_apt32f102_i2c.o
+    0x200001ab   0x00000001   PAD
+    0x200001ac   0x0000006c   Zero   RW        846  COMMON         	Obj/source_apt32f102_interrupt.o
+    0x20000218   0x000001d8   Zero   RW        909  COMMON         	Obj/source_define.o
+
+    Region *default* (Base: 0x00000000, Size: 0x00000000, Max: 0xffffffff)
+
+
+======================================================================
+
+Image component sizes
+
+       Code    RO Data    RW Data    ZI Data      Debug   Object Name
+
+          0          0          0          0          0   linker stubs
+        436          0          0          0        275   Obj/arch_crt0.o
+         56          0          0          0      13909   Obj/arch_mem_init.o
+        144          0        100          0      26254   Obj/drivers_apt32f102.o
+          0          0          0          0          0   Obj/drivers_apt32f102_ck801.o
+          0          0          0          0          0   Obj/FWlib_apt32f101_adc.o
+        306          0          0          7      32715   Obj/FWlib_apt32f101_ifc.o
+        464          0          0          0      27296   Obj/FWlib_apt32f102_bt.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_coret.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_countera.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_crc.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_ept.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_et.o
+        194         40          0          0      29577   Obj/FWlib_apt32f102_gpio.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_gpt.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_hwdiv.o
+        392          0          0         69      30869   Obj/FWlib_apt32f102_i2c.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_lpt.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_rtc.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_sio.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_spi.o
+          0          0          0          0          0   Obj/FWlib_apt32f102_syscon.o
+        366          0          0          0      27940   Obj/FWlib_apt32f102_uart.o
+         16          0          0          0      24008   Obj/FWlib_apt32f102_wwdt.o
+        720         68          0          0      47610   Obj/source_main.o
+        188          0          0          0      62753   Obj/source_apt32f102_initial.o
+       2490          0          0        110      50004   Obj/source_apt32f102_interrupt.o
+          0          0          0          0          0   Obj/source_delay.o
+        388          0          1          0      29219   Obj/source_iostring.o
+        156          0          0        482      33572   Obj/source_define.o
+        214          0          0          0      32962   Obj/source_Ht1621.o
+        696          0          0          5      32770   Obj/source_key.o
+        980          0         26          0      32849   Obj/source_disp.o
+       1832        270        201          0      37145   Obj/source_uart.o
+          0          0          0          0          0   Obj/__rt_entry.o
+	------------------------------------------------------------
+      10038        378        328        673     571727   Object Totals
+          2          2          0          7          0   Pad
+          0          0          0          0          0   LD_GEN
+
+	------------------------------------------------------------
+    [Library Name]: d:/c-sky/cdkrepo/toolchain/ckv2elfminilib/v3.10.29/r/bin/../lib/gcc/csky-elfabiv2/6.3.0/ck801\libgcc.a
+	------------------------------------------------------------
+       Code    RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+          0          0          0          0          0   _csky_case_uqi.o
+         26          0          0          0          0   _csky_case_uhi.o
+	------------------------------------------------------------
+         26          0          0          0          0   Library Totals
+          0          0          0          0          0   Pad
+          0          0          0          0          0   LD_GEN
+
+	------------------------------------------------------------
+    [Library Name]: d:/c-sky/cdkrepo/toolchain/ckv2elfminilib/v3.10.29/r/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/lib/ck801\libc.a
+	------------------------------------------------------------
+       Code    RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+        136          0          0          0          0   memset_fast.o
+        100          0          0          0          0   memcpy_fast.o
+	------------------------------------------------------------
+        236          0          0          0          0   Library Totals
+          0          0          0          0          0   Pad
+          0          0          0          0          0   LD_GEN
+
+	------------------------------------------------------------
+
+======================================================================
+
+
+       Code    RO Data    RW Data    ZI Data      Debug
+      10302        380        328        680     571727   Grand Totals
+      10302        380        328        680     571727   Elf Image Totals
+      10302        380        328          0          0   ROM Totals
+
+======================================================================
+
+Total	RO	Size (Code + RO Data)				10682 (  10.43kB)
+Total	RW	Size (RW Data + ZI Data)			1008 (  0.98kB)
+Total	ROM	Size (Code + RO Data + RW Data)		11010 (  10.75kB)
+
+======================================================================

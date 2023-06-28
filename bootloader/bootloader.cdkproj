@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Name="bootloader" Version="v1.6" Language="C">
+  <Description>CPU: e801
+Chip: smartl
+Board: smartl_801_evb
+BareMetal: Without RTOS
+  </Description>
+  <Dependencies Name="Debug"/>
+  <VirtualDirectory Name="include">
+    <File Name="include/csi_config.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_adc.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_bt.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_ck801.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_coret.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_countera.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_crc.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_ept.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_et.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_gpio.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_gpt.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_hwdiv.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_i2c.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_ifc.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_lpt.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_rtc.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_sio.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_spi.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_syscon.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_types_local.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_uart.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/apt32f102_wwdt.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/CSP_EPT.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/delay.h">
+      <FileOption/>
+    </File>
+    <File Name="../Source/include/iostring.h">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="FWlib">
+    <File Name="../Source/FWlib/apt32f101_adc.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f101_ifc.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_bt.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_coret.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_countera.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_ept.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_et.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_gpio.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_gpt.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_hwdiv.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_i2c.c" ExcludeProjConfig="">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_lpt.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_rtc.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_syscon.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_uart.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/FWlib/apt32f102_wwdt.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="drivers">
+    <File Name="../Source/drivers/apt32f102.c">
+      <FileOption/>
+    </File>
+    <File Name="../Source/drivers/apt32f102_ck801.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="arch">
+    <File Name="arch/ckcpu.ld">
+      <FileOption/>
+    </File>
+    <File Name="arch/crt0.S">
+      <FileOption/>
+    </File>
+    <File Name="arch/mem_init.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="source">
+    <File Name="source/apt32f102_initial.c">
+      <FileOption/>
+    </File>
+    <File Name="source/apt32f102_interrupt.c">
+      <FileOption/>
+    </File>
+    <File Name="source/delay.c">
+      <FileOption/>
+    </File>
+    <File Name="source/iostring.c">
+      <FileOption/>
+    </File>
+    <File Name="source/main.c">
+      <FileOption/>
+    </File>
+    <File Name="source/define.c">
+      <FileOption/>
+    </File>
+    <File Name="source/uart.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <MonitorProgress>
+    <DebugLaunch>105</DebugLaunch>
+    <FlashOperate>95</FlashOperate>
+  </MonitorProgress>
+  <VendorInfo>
+    <VendorName>NULL</VendorName>
+  </VendorInfo>
+  <DebugSessions>
+    <watchExpressions>UartFifo_t:1;UART1:1;g_RxData:1;temp_buff:1;buff:1;gReadbuff:1;packageOffset:1;framelength:1;frameCmd:1</watchExpressions>
+    <memoryExpressions>0x10000000;0x60000000;0x2d00;</memoryExpressions>
+    <statistics>;;32;;MHZ;</statistics>
+    <peripheralTabs/>
+    <WatchDisplayFormat>1</WatchDisplayFormat>
+    <LocalDisplayFormat>1</LocalDisplayFormat>
+    <debugLayout/>
+    <memoryTabColSizeExpressions>100:4;100:4;100:4;100:8;</memoryTabColSizeExpressions>
+  </DebugSessions>
+  <BuildConfigs>
+    <BuildConfig Name="BuildSet">
+      <Target>
+        <ROMBank Selected="1">
+          <ROM1>
+            <InUse>yes</InUse>
+            <Start>0x0000000</Start>
+            <Size>0x00001000</Size>
+          </ROM1>
+          <ROM2>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM2>
+          <ROM3>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM3>
+          <ROM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM4>
+          <ROM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM5>
+        </ROMBank>
+        <RAMBank>
+          <RAM1>
+            <InUse>yes</InUse>
+            <Start>0x20000000</Start>
+            <Size>0x1000</Size>
+            <Init>yes</Init>
+          </RAM1>
+          <RAM2>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM2>
+          <RAM3>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM3>
+          <RAM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM4>
+          <RAM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM5>
+        </RAMBank>
+        <CPU>e801</CPU>
+        <UseMiniLib>yes</UseMiniLib>
+        <Endian>little</Endian>
+        <UseHardFloat>no</UseHardFloat>
+        <UseEnhancedLRW>no</UseEnhancedLRW>
+        <UseContinueBuild>no</UseContinueBuild>
+        <UseSemiHost>no</UseSemiHost>
+      </Target>
+      <Output>
+        <OutputName>$(ProjectName)</OutputName>
+        <Type>Executable</Type>
+        <CreateHexFile>yes</CreateHexFile>
+        <CreateBinFile>yes</CreateBinFile>
+        <Preprocessor>no</Preprocessor>
+        <Disassmeble>no</Disassmeble>
+        <CallGraph>no</CallGraph>
+        <Map>yes</Map>
+      </Output>
+      <User>
+        <BeforeCompile>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </BeforeCompile>
+        <BeforeMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </BeforeMake>
+        <AfterMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </AfterMake>
+        <Tools/>
+      </User>
+      <Compiler>
+        <Define/>
+        <Undefine/>
+        <Optim>Optimize size (-Os)</Optim>
+        <DebugLevel>Maximum (-g3)</DebugLevel>
+        <IncludePath>$(ProjectPath);$(ProjectPath)/include;$../(ProjectPath)/Source/include;$(ProjectPath)/../Source/include</IncludePath>
+        <OtherFlags>-ffunction-sections </OtherFlags>
+        <Verbose>no</Verbose>
+        <Ansi>no</Ansi>
+        <Syntax>no</Syntax>
+        <Pedantic>no</Pedantic>
+        <PedanticErr>no</PedanticErr>
+        <InhibitWarn>no</InhibitWarn>
+        <AllWarn>yes</AllWarn>
+        <WarnErr>no</WarnErr>
+        <OneElfS>yes</OneElfS>
+        <OneElfSPerData>no</OneElfSPerData>
+        <Fstrict>no</Fstrict>
+      </Compiler>
+      <Asm>
+        <Define/>
+        <Undefine/>
+        <IncludePath>$(ProjectPath);$(ProjectPath)/include</IncludePath>
+        <OtherFlags/>
+        <DebugLevel>gdwarf2</DebugLevel>
+      </Asm>
+      <Linker>
+        <Garbage>yes</Garbage>
+        <Garbage2>yes</Garbage2>
+        <LDFile>$(ProjectPath)/arch/ckcpu.ld</LDFile>
+        <LibName/>
+        <LibPath/>
+        <OtherFlags>-Wl,-zmax-page-size=1024</OtherFlags>
+        <AutoLDFile>no</AutoLDFile>
+        <LinkType/>
+        <IncludeAllLibs>no</IncludeAllLibs>
+      </Linker>
+      <Debug>
+        <LoadApplicationAtStartup>yes</LoadApplicationAtStartup>
+        <Connector>ICE</Connector>
+        <StopAt>yes</StopAt>
+        <StopAtText>main</StopAtText>
+        <InitFile/>
+        <AfterLoadFile/>
+        <AutoRun>yes</AutoRun>
+        <ResetType>Soft Reset</ResetType>
+        <SoftResetVal>abcd1234</SoftResetVal>
+        <ResetAfterLoad>yes</ResetAfterLoad>
+        <AfterResetFile/>
+        <Dumpcore>no</Dumpcore>
+        <DumpcoreText>$(ProjectPath)/$(ProjectName).cdkcore</DumpcoreText>
+        <ConfigICE>
+          <IP>localhost</IP>
+          <PORT>1025</PORT>
+          <CPUNumber>0</CPUNumber>
+          <Clock>12000</Clock>
+          <Delay>10</Delay>
+          <NResetDelay>100</NResetDelay>
+          <WaitReset>50</WaitReset>
+          <DDC>yes</DDC>
+          <TRST>no</TRST>
+          <DebugPrint>yes</DebugPrint>
+          <Connect>Normal</Connect>
+          <ResetType>Soft Reset</ResetType>
+          <SoftResetVal>abcd1234</SoftResetVal>
+          <RTOSType>Bare Metal</RTOSType>
+          <DownloadToFlash>yes</DownloadToFlash>
+          <ResetAfterConnect>yes</ResetAfterConnect>
+          <GDBName/>
+          <GDBServerType>Local</GDBServerType>
+          <OtherFlags/>
+          <ICEEnablePCSampling>yes</ICEEnablePCSampling>
+          <ICESamplingFreq>1000</ICESamplingFreq>
+          <RemoteICEEnablePCSampling>yes</RemoteICEEnablePCSampling>
+          <RemoteICESamplingPort>1026</RemoteICESamplingPort>
+          <Version>latest</Version>
+        </ConfigICE>
+        <ConfigSIM>
+          <SIMTarget>soccfg/cskyv2/smartl_801_cfg.xml</SIMTarget>
+          <OtherFlags/>
+          <NoGraphic>yes</NoGraphic>
+          <Log>no</Log>
+          <SimTrace>no</SimTrace>
+          <Version>latest</Version>
+        </ConfigSIM>
+        <ConfigOpenOCD>
+          <OpenOCDExecutablePath/>
+          <OpenOCDTelnetPortEnable>no</OpenOCDTelnetPortEnable>
+          <OpenOCDTelnetPort>4444</OpenOCDTelnetPort>
+          <OpenOCDTclPortEnable>no</OpenOCDTclPortEnable>
+          <OpenOCDTclPort>6666</OpenOCDTclPort>
+          <OpenOCDConfigOptions/>
+          <OpenOCDTimeout>5000</OpenOCDTimeout>
+          <PluginID>openocd-sifive</PluginID>
+          <Version>latest</Version>
+        </ConfigOpenOCD>
+      </Debug>
+      <Flash>
+        <InitFile/>
+        <Erase>Erase Sectors</Erase>
+        <Algorithms Path="">APT32F102_FLASHDOWN.elf</Algorithms>
+        <Program>yes</Program>
+        <Verify>yes</Verify>
+        <ResetAndRun>yes</ResetAndRun>
+        <ResetType>Soft Reset</ResetType>
+        <SoftResetVal>abcd1234</SoftResetVal>
+        <External>no</External>
+        <Command/>
+        <Arguments/>
+      </Flash>
+    </BuildConfig>
+  </BuildConfigs>
+</Project>

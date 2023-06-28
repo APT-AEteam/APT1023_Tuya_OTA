@@ -1,0 +1,217 @@
+[{
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\arch\\mem_init.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\arch\\mem_init.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\arch\\mem_init.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102_ck801.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102_ck801.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102_ck801.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_adc.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_adc.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_adc.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_ifc.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_ifc.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_ifc.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_bt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_bt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_bt.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_coret.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_coret.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_coret.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_countera.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_countera.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_countera.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_crc.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_crc.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_crc.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_ept.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_ept.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_ept.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_et.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_et.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_et.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpio.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpio.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpio.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpt.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_hwdiv.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_hwdiv.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_hwdiv.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_i2c.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_i2c.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_i2c.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_lpt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_lpt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_lpt.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_rtc.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_rtc.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_rtc.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_sio.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_sio.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_sio.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_spi.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_spi.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_spi.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_syscon.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_syscon.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_syscon.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_uart.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_uart.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_uart.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_wwdt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_wwdt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_wwdt.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\main.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\main.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\main.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\apt32f102_initial.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\apt32f102_initial.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\apt32f102_initial.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\apt32f102_interrupt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\apt32f102_interrupt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\app\\source\\apt32f102_interrupt.c.o  -mcpu=e801    -O0  -g3  -Wall  -ffunction-sections -ffunction-sections -fdata-sections -ID:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_adc.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_adc.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_adc.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_ifc.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_ifc.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f101_ifc.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_bt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_bt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_bt.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_coret.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_coret.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_coret.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_countera.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_countera.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_countera.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_crc.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_crc.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_crc.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_ept.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_ept.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_ept.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_et.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_et.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_et.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpio.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpio.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpio.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_gpt.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_hwdiv.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_hwdiv.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_hwdiv.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_i2c.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_i2c.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_i2c.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_lpt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_lpt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_lpt.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_rtc.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_rtc.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_rtc.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_sio.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_sio.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_sio.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_spi.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_spi.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_spi.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_syscon.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_syscon.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_syscon.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_uart.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_uart.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_uart.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_wwdt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_wwdt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\FWlib\\apt32f102_wwdt.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102_ck801.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102_ck801.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\Source\\drivers\\apt32f102_ck801.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\arch\\mem_init.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\arch\\mem_init.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\arch\\mem_init.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\apt32f102_initial.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\apt32f102_initial.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\apt32f102_initial.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\apt32f102_interrupt.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\apt32f102_interrupt.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\apt32f102_interrupt.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\btloaderDriver.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\btloaderDriver.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\btloaderDriver.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\btloaderPub.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\btloaderPub.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\btloaderPub.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\delay.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\delay.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\delay.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\iostring.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\iostring.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\iostring.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }, {
+  "file": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\main.c",
+  "directory": "D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader",
+  "command": "csky-elfabiv2-gcc -c D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\main.c -o D:\\PROJECT\\APT32F102A_FOLDER\\CODE\\bootloader\\bootloader\\source\\main.c.o  -mcpu=e801    -Og  -g3  -Wall -ffunction-sections -fdata-sections -I$(ProjectPath) -I$(ProjectPath)/include -I$../(ProjectPath)/Source/include -I$(ProjectPath)/../Source/include -I$(ProjectPath) -I$(ProjectPath)/include"
+ }]

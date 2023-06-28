@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\APT32F102.cdkws">
+  <int Value="2" Name="m_selectedTab"/>
+  <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\APT32F102.cdkws" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\Source\include\bootloader.h" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="36" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks">
+        <wxString Value="26:3"/>
+        <wxString Value="45:3"/>
+        <wxString Value="65:3"/>
+      </wxArrayString>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\bootloader\source\btloaderPub.c" Name="FileName"/>
+      <int Value="21" Name="FirstVisibleLine"/>
+      <int Value="44" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks">
+        <wxString Value="107:3"/>
+        <wxString Value="116:3"/>
+        <wxString Value="477:3"/>
+        <wxString Value="514:3"/>
+        <wxString Value="515:3"/>
+        <wxString Value="520:3"/>
+        <wxString Value="766:3"/>
+      </wxArrayString>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\bootloader\source\main.c" Name="FileName"/>
+      <int Value="50" Name="FirstVisibleLine"/>
+      <int Value="74" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks">
+        <wxString Value="61:3"/>
+      </wxArrayString>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\bootloader\source\apt32f102_initial.c" Name="FileName"/>
+      <int Value="473" Name="FirstVisibleLine"/>
+      <int Value="489" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\bootloader\arch\crt0.S" Name="FileName"/>
+      <int Value="39" Name="FirstVisibleLine"/>
+      <int Value="22" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\Source\FWlib\apt32f102_syscon.c" Name="FileName"/>
+      <int Value="134" Name="FirstVisibleLine"/>
+      <int Value="158" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\bootloader\source\delay.c" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="26" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\app\source\main.c" Name="FileName"/>
+      <int Value="7" Name="FirstVisibleLine"/>
+      <int Value="40" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\app\arch\ckcpu.ld" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\PROJECT\APT32F102A_FOLDER\CODE\bootloader\app\arch\crt0.S" Name="FileName"/>
+      <int Value="75" Name="FirstVisibleLine"/>
+      <int Value="91" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>

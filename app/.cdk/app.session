@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\app.cdkws">
+  <int Value="2" Name="m_selectedTab"/>
+  <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\app.cdkws" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\main.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="196" Name="FirstVisibleLine"/>
+      <int Value="222" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\define.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="119" Name="FirstVisibleLine"/>
+      <int Value="126" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="f:\lhy\00-apt\01-testupdate\v04_apt32f1023_ota_tuya\source\include\define.h" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="46" Name="FirstVisibleLine"/>
+      <int Value="72" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\uart.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="610" Name="FirstVisibleLine"/>
+      <int Value="680" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\key.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="1" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\iostring.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="1" Name="FirstVisibleLine"/>
+      <int Value="1" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\Ht1621.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="58" Name="FirstVisibleLine"/>
+      <int Value="71" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\disp.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="1" Name="FirstVisibleLine"/>
+      <int Value="1" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\delay.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="1" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\app\source\apt32f102_initial.c" Name="FileName"/>
+      <wxString Value="app" Name="ProjectName"/>
+      <int Value="427" Name="FirstVisibleLine"/>
+      <int Value="440" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks">
+        <wxString Value="440:3"/>
+      </wxArrayString>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>

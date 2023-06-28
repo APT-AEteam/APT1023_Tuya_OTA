@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\bootloader\bootloader.cdkws">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\bootloader\bootloader.cdkws" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\bootloader\source\main.c" Name="FileName"/>
+      <wxString Value="bootloader" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="94" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\bootloader\source\define.c" Name="FileName"/>
+      <wxString Value="bootloader" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="1" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\Source\include\define.h" Name="FileName"/>
+      <wxString Value="bootloader" Name="ProjectName"/>
+      <int Value="62" Name="FirstVisibleLine"/>
+      <int Value="72" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\lhy\00-APT\01-testupdate\V04_apt32f1023_OTA_Tuya\bootloader\source\apt32f102_initial.c" Name="FileName"/>
+      <wxString Value="bootloader" Name="ProjectName"/>
+      <int Value="490" Name="FirstVisibleLine"/>
+      <int Value="488" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks">
+        <wxString Value="455:3"/>
+      </wxArrayString>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
